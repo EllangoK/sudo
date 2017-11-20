@@ -1,0 +1,155 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Project>
+<ProjectTitle>CTN Dissemination Library [no.87]: A 
+                  Multi-Center Randomized Trial of Buprenorphine-Naloxone Versus 
+                  Clonidine for Opioid Detoxification: Findings from the National 
+                  Institute on Drug Abuse Clinical Trials Network
+</ProjectTitle>
+<CitationSet>
+    <OriginalCitation>Addiction 2005; 100(8):1090-1100. [doi: 10.1111/j.1360-0443.2005.01154.x].
+    </OriginalCitation>
+    <CorrectionCitationSet>
+        <CorrectionCitation> Addiction 2006;101(9):1374. 
+        </CorrectionCitation>
+    </CorrectionCitationSet>
+</CitationSet>             
+<AuthorSet>
+  <Author>
+    <Name>Walter Ling, MD</Name>
+    <Affiliation> Integrated Substance Abuse Programs, UCLA, PR Node</Affiliation> 
+  </Author>
+  <Author>
+    <Name>Leslie Amass, PhD</Name>
+    <Affiliation>Friends Research Institute, PR Node</Affiliation>
+  </Author>
+  <Author>
+    <Name>Steven Shoptaw, PhD</Name>
+    <Affiliation>Integrated Substance Abuse Programs, UCLA, PR Node</Affiliation>
+</Author>
+<Author>
+  <Name>Jeffrey J. Annon, MA</Name>
+   <Affiliation> Integrated Substance Abuse Programs, UCLA, PR Node </Affiliation>
+ </Author>
+  <Author>
+    <Name>Maureen Hillhouse</Name>
+   <Affiliation>Integrated Substance Abuse Programs, UCLA, PR Node</Affiliation>
+</Author>
+<Author>
+  <Name>Dean Babcock, MSW</Name>
+  <Affiliation>Midtown Community Health Center, OV Node</Affiliation> 
+</Author>
+<Author>
+  <Name>Gregory S. Brigham, PhD</Name>
+  <Affiliation>Maryhaven, Inc, OV Node</Affiliation>
+</Author>
+<Author>
+  <Name>Judith Harrer, PhD</Name>
+  <Affiliation>VA Medical Center, OV Node</Affiliation> 
+</Author>
+<Author>
+  <Name>Malcolm S. Reid, PhD</Name>
+   <Affiliation>NYU School of Medicine, NY Node</Affiliation> 
+  </Author>
+  <Author>
+    <Name>Joan A. Muir, PhD</Name>
+    <Affiliation>Center for Family Studies, U of Miami, FL Node</Affiliation> 
+ </Author>
+ <Author>
+  <Name>Betty J. Buchan, PhD</Name>
+   <Affiliation>Operation PAR, Inc., FL Node</Affiliation> 
+</Author>
+<Author>
+  <Name>Deborah Orr, PhD</Name>
+   <Affiliation>Center for Drug-Free Living, FL Node</Affiliation> 
+</Author>
+<Author>
+  <Name>George E. Woody, MD</Name>
+  <Affiliation>University of Pennsylvania, DV Node</Affiliation> 
+</Author>
+<Author>
+<Name>Jonathan Krejci, PhD</Name>
+<Affiliation>Mercer Trenton Addiction Science Center, DV Node</Affiliation>
+</Author>
+<Author>
+  <Name>Douglas M. Ziedonis, MD, MPH</Name>
+   <Affiliation>Robert Wood Johnson Medical Center, DV Node</Affiliation> 
+</Author>
+<Author>
+  <Name>CTN Buprenorphine Study Team (CTN-0001/0002)</Name>
+</Author>
+</AuthorSet>
+
+<ProjectDescription>
+  <Abstract>This is the Primary Outcomes Article for CTN-0001 and CTN-0002. The clinical effectiveness of buprenorphine-naloxone (bup-nx) and clonidine for opioid detoxification in inpatient and outpatient community treatment programs was investigated in the first studies of the National Institute of Drug Abuse Clinical Trials Network. DESIGN: DSM-IV-diagnosed opioid-dependent individuals seeking short-term treatment were randomly assigned, in a 2:1 ratio favoring bup-nx, to a 13-day detoxification using bup-nx or clonidine. A total of 113 inpatients (77 bup-nx, 36 clonidine) and 231 outpatients (157 bup-nx, 74 clonidine) participated. Supportive interventions included appropriate ancillary medications and standard counseling procedures defined as the proportion of participants in each condition who were both retained in the study for the entire duration and provided an opioid-free urine sample on the last day of clinic attendance. Secondary outcome measures included use of ancillary medications, number of side effects reported and withdrawal and craving ratings. A total of 59 of the 77 (77%) inpatients assigned to the bup-nx condition achieved the treatment success criterion compared to 8 of the 36 (22%) assigned to clonidine, whereas 46 of the 157 (29%) outpatients assigned to the bup-nx condition achieved the treatment success criterion, compared to 74 (5%) assigned to clonidine.</Abstract>
+
+  <Conclusion>The benefits of bup-nx for opioid detoxification are supported and illustrate important ways in which clinical research can be conducted in community treatment programs. </Conclusion>
+
+  <KeywordSet>
+    <Keyword>Buprenorphine/Naloxone</Keyword> 
+    <Keyword>Clonidine</Keyword> 
+    <Keyword>Effectiveness Trials</Keyword>
+    <Keyword>CTN Primary Outcomes</Keyword>
+    <Keyword>Opioid Dependency</Keyword>
+    <Keyword>Opioid Detoxification</Keyword>
+    <Keyword>Pharmacologic Therapy</Keyword>
+    <Keyword>Suboxone</Keyword>
+</KeywordSet>
+
+    <Unclassified>
+
+                  <p class="smalltext"><i>Document No: 87</i>, <em>PMID: 16042639,</em> <em>PMCID: PMC1480367</em></p>
+              <p class="smalltext">Submitted by Jack D. Blaine, MD, Chair, Publications Subcommittee (6/30/2005).</p>
+                  <p class="smalltext"><a name="correction"></a><b>Correction</b> published in <i>Addiction 2006;101(9):1374</i> names the members of the Buprenorphine Study Protocol Group Steering Committee as follows: Walter Ling, Joan Muir-Malcolm, Eugene Somoza, Edward Nunes, Charles Shuster, John Rotrosen, Dennis McCarty, George Woody, Nancy Waite-O'Brien, Debbie Orr, Greg Brigham, Betty Buchan, Terry Horton, Susan Stine, Steven Ruth, Larry Brown, Robert Maslansky, David Smith, Brad Anderson, Steven Fekete, and Douglas Ziedonis. It also adds Susan M. Stine from Wayne State University to the list of acknowledgements. </p>
+  </Unclassified>
+</ProjectDescription>
+          
+<ProtocolSet>
+  <Protocol>
+    <Name>NIDA-CTN-0001</Name>
+    <Detail>
+      <Url>http://ctndisseminationlibrary.org/protocols/ctn0001.htm</Url>
+    </Detail>
+  </Protocol>
+  <Protocol>
+    <Name>NIDA-CTN-0002</Name>
+    <Detail>
+      <Url>http://ctndisseminationlibrary.org/protocols/ctn0002.htm
+      </Url>
+    </Detail>
+  </Protocol>
+</ProtocolSet>
+
+  <ParticipatingNodeSet>
+    <ParticipatingNode>
+      <Name> Pacific Region </Name>
+      <Role>Lead</Role>
+    </ParticipatingNode>
+
+    <ParticipatingNode>
+      <Name>Delaware Valley</Name> 
+    </ParticipatingNode>
+
+    <ParticipatingNode>
+      <Name>Great Lakes Regional </Name> 
+    </ParticipatingNode>
+
+    <ParticipatingNode>
+      <!-- Need to think about relationships between names, placeholder as with many things for now -->
+      <Name>Greater New York</Name> 
+      <AlternateName>Long Island and New York</AlternateName>
+
+   </ParticipatingNode>
+   <ParticipatingNode>
+    <Name>Florida Node Alliance</Name>
+  </ParticipatingNode>
+
+  <ParticipatingNode>
+    <Name>Ohio Valley</Name>
+  </ParticipatingNode>
+
+  <ParticipatingNode>
+    <Name>Western States</Name> 
+    <AlternateName>Oregon/Hawaii</AlternateName>
+  </ParticipatingNode>
+</ParticipatingNodeSet>
+</Project>
