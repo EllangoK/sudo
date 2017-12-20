@@ -18,3 +18,6 @@ In contrast to Enrollment, the immediate descendant of PopulationSpecification i
 
 Each Allocation has the following fields (slots):
 1. AllocationType: This refers to the statistics method used to allocate people between the defined partitions. (Future versions of sudo may rename this from AllocationType to Allocation Method). The AllocationType usually has the value Random, although other values such as Block-design are possible.
+
+####AllocatedStudyArm
+The AllocatedStudyArm is the realization of the application of an AllocationSet to a group of people. 
