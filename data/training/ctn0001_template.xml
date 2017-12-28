@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<Project>
+  <ProjectTitle>A Multi-Center Randomized Trial of Buprenorphine-Naloxone Versus Clonidine for Opioid Detoxification: Findings from the National Institute on Drug Abuse Clinical Trials Network.</ProjectTitle>
+  <CitationSet>
+    <Citation>Addiction 2005; 100(8):1090-1100. [doi: 10.1111/j.1360-0443.2005.01154.x]. Correction: Addiction 2006;101(9):1374.</Citation>
+  </CitationSet>
+  <AuthorSet>
+    <Name>Walter Ling</Name>
+    <DegreeSet>
+      <Degree>MD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Integrated Substance Abuse Programs, UCLA, PR Node</Affiliation>
+    </AffiliationSet>
+    <Name>Leslie Amass</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Friends Research Institute, PR Node</Affiliation>
+    </AffiliationSet>
+    <Name>Steven Shoptaw</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Integrated Substance Abuse Programs, UCLA, PR Node</Affiliation>
+    </AffiliationSet>
+    <Name>Jeffrey J. Annon</Name>
+    <DegreeSet>
+      <Degree>MA</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Integrated Substance Abuse Programs, UCLA, PR Node</Affiliation>
+    </AffiliationSet>
+    <Name>Maureen Hillhouse</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>Integrated Substance Abuse Programs, UCLA, PR Node</Affiliation>
+    </AffiliationSet>
+    <Name>Dean Babcock</Name>
+    <DegreeSet>
+      <Degree>MSW</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Midtown Community Health Center, OV Node</Affiliation>
+    </AffiliationSet>
+    <Name>Gregory S. Brigham</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Maryhaven, Inc, OV Node</Affiliation>
+    </AffiliationSet>
+    <Name>Judith Harrer</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>VA Medical Center, OV Node</Affiliation>
+    </AffiliationSet>
+    <Name>Malcolm S. Reid</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>NYU School of Medicine, NY Node</Affiliation>
+    </AffiliationSet>
+    <Name>Joan A. Muir</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Center for Family Studies, U of Miami, FL Node</Affiliation>
+    </AffiliationSet>
+    <Name>Betty J. Buchan</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Operation PAR, Inc., FL Node</Affiliation>
+    </AffiliationSet>
+    <Name>Deborah Orr</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Center for Drug-Free Living, FL Node</Affiliation>
+    </AffiliationSet>
+    <Name>George E. Woody</Name>
+    <DegreeSet>
+      <Degree>MD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>University of Pennsylvania, DV Node</Affiliation>
+    </AffiliationSet>
+    <Name>Jonathan Krejci</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Mercer Trenton Addiction Science Center, DV Node</Affiliation>
+    </AffiliationSet>
+    <Name>Douglas M. Ziedonis</Name>
+    <DegreeSet>
+      <Degree>MD</Degree>
+      <Degree>MPH</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Robert Wood Johnson Medical Center, DV Node</Affiliation>
+    </AffiliationSet>
+    <Name>CTN Buprenorphine Study Team</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>CTN-0001/0002).</Affiliation>
+    </AffiliationSet>
+  </AuthorSet>
+  <ProjectDescription>
+    <Abstract>
+      <AbstractText>This is the Primary Outcomes Article for CTN-0001 and CTN-0002. The clinical effectiveness of buprenorphine-naloxone (bup-nx) and clonidine for opioid detoxification in inpatient and outpatient community treatment programs was investigated in the first studies of the National Institute of Drug Abuse Clinical Trials Network. DESIGN: DSM-IV-diagnosed opioid-dependent individuals seeking short-term treatment were randomly assigned, in a 2:1 ratio favoring bup-nx, to a 13-day detoxification using bup-nx or clonidine. A total of 113 inpatients (77 bup-nx, 36 clonidine) and 231 outpatients (157 bup-nx, 74 clonidine) participated. Supportive interventions included appropriate ancillary medications and standard counseling procedures defined as the proportion of participants in each condition who were both retained in the study for the entire duration and provided an opioid-free urine sample on the last day of clinic attendance. Secondary outcome measures included use of ancillary medications, number of side effects reported and withdrawal and craving ratings. A total of 59 of the 77 (77%) inpatients assigned to the bup-nx condition achieved the treatment success criterion compared to 8 of the 36 (22%) assigned to clonidine, whereas 46 of the 157 (29%) outpatients assigned to the bup-nx condition achieved the treatment success criterion, compared to 74 (5%) assigned to clonidine.</AbstractText>
+      <PopulationSpecification>
+        <Enrollment>
+          <CriterionSet>
+            <Criterion>
+              <CriterionType>placeholder</CriterionType>
+              <CriterionSpecification>placeholder</CriterionSpecification>
+            </Criterion>
+          </CriterionSet>
+        </Enrollment>
+        <Allocation>
+          <AllocationPredicate>
+            <AllocationPredicateFunction>
+              <AllocationPredicateFunctionSignature>placeholder</AllocationPredicateFunctionSignature>
+              <AllocationPredicateFunctionArgumentSet>
+                <AllocationPredicateFunctionArgument>
+                  <AllocationPredicateFunctionArgumentName>placeholder</AllocationPredicateFunctionArgumentName>
+                  <AllocationPredicateFunctionArgumentValue>placeholder</AllocationPredicateFunctionArgumentValue>
+                </AllocationPredicateFunctionArgument>
+              </AllocationPredicateFunctionArgumentSet>
+            </AllocationPredicateFunction>
+          </AllocationPredicate>
+        </Allocation>
+        <AllocatedStudyArmSet>
+          <AllocatedStudyArm>
+            <Name>placeholder</Name>
+            <InitialSize>
+              <SubgroupSet>
+                <Subgroup>
+                  <Name>placeholder</Name>
+                  <Size>placeholder</Size>
+                </Subgroup>
+              </SubgroupSet>
+            </InitialSize>
+            <InterventionSet>
+              <Intervention>placeholder</Intervention>
+            </InterventionSet>
+            <MetricResultSet>
+              <MetricResult/>
+            </MetricResultSet>
+          </AllocatedStudyArm>
+        </AllocatedStudyArmSet>
+        <PlannedActionSet>
+          <PlannedAction>
+            <Name>placeholder</Name>
+            <IntendedTargetPopulation>placeholder</IntendedTargetPopulation>
+            <PlannedActionSpecification>
+              <TypeOfAction>placeholder</TypeOfAction>
+              <TypeSpecificFields/>
+            </PlannedActionSpecification>
+          </PlannedAction>
+        </PlannedActionSet>
+        <MetricSpecificationSet>
+          <MetricSpecification>
+            <Name>placeholder</Name>
+            <Measurement>
+              <MeasurementName>placeholder</MeasurementName>
+              <MeasurementUnits>placeholder</MeasurementUnits>
+            </Measurement>
+            <IntendedTargetPopulationSet>
+              <IntendedTargetPopulation>
+                <Name>placeholder</Name>
+                <Value>placeholder</Value>
+              </IntendedTargetPopulation>
+            </IntendedTargetPopulationSet>
+            <StatisticSpecification>
+              <StatisticName>placeholder</StatisticName>
+              <ModifierSet>
+                <Modifier>placeholder</Modifier>
+              </ModifierSet>
+              <FalsePositiveChance>0.05</FalsePositiveChance>
+            </StatisticSpecification>
+          </MetricSpecification>
+        </MetricSpecificationSet>
+        <MetricResultSet>
+          <MetricResult>
+            <MetricName>placeholder</MetricName>
+            <AllocatedStudyArmSet>
+              <AllocatedStudyArm>
+                <Name>placeholder</Name>
+                <MetricValue>placeholder</MetricValue>
+              </AllocatedStudyArm>
+            </AllocatedStudyArmSet>
+          </MetricResult>
+        </MetricResultSet>
+      </PopulationSpecification>
+      <Conclusion>Conclusions: The benefits of bup-nx for opioid detoxification are supported and illustrate important ways in which clinical research can be conducted in community treatment programs. (Article (Peer-Reviewed), PDF, English, 2005)</Conclusion>
+      <KeywordSet>
+        <Keyword>Buprenorphine/Naloxone</Keyword>
+        <Keyword>Clonidine</Keyword>
+        <Keyword>CTN primary outcomes</Keyword>
+        <Keyword>Effectiveness trials</Keyword>
+        <Keyword>Opioid dependence| Opioid detoxification</Keyword>
+        <Keyword>Pharmacological therapy</Keyword>
+        <Keyword>Suboxone</Keyword>
+      </KeywordSet>
+    </Abstract>
+  </ProjectDescription>
+</Project>

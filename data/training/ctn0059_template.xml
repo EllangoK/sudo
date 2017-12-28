@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<Project>
+  <ProjectTitle>PubMed Central (free) Journal subscriber access CTN-0059 Primary Outcomes Performance of the Tobacco, Alcohol, Prescription Medication, and Other Substance Use (TAPS) Tool for Substance Use Screening in Primary Care Patients. Annals of Internal Medicine 2016;165(10):690-699. [doi: 10.7326/M16-0317] Jennifer McNeely, MD, MS (New York University, GNY Node), Li-Tzy Wu, ScD (Duke University, MS Node), Geetha Subramaniam, MD (NIDA Center for the Clinical Trials Network), Gaurav Sharma, PhD (CTN Data Statistics Center, Emmes), Lauretta A. Cathers, PhD (Virginia Commonwealth University, MA Node), Dace Svikis, PhD (Virginia Commonwealth University, MA Node), Luke Seliter, MPH (New York University, GNY Node), Linnea Russell (New York University, GNY Node), Courtney Nordeck (Friends Research Institute, MA Node), Anjalee Sharma, MSW (Friends Research Institute, MA Node), Kevin E. O'Grady, PhD (University of Maryland), Leah B. Bouk, MBA (Duke University, MS Node), Carol Cushing, BBA, RN (NIDA Center for the Clinical Trials Network), Jacqueline King, MS (CTN Data Statistics Center, Emmes), Aimee Wahle, MS (CTN Data Statistics Center, Emmes), Robert P. Schwartz, MD (Friends Research Institute, MA Node). This is the Primary Outcomes Article for CTN-0059. Substance use, a leading cause of illness and death, is underidentified in medical practice. The Tobacco, Alcohol, Prescription Medication, and Other Substance Use (TAPS) tool was developed to address the need for a brief screening and assessment instrument that includes all commonly used substances and fits into clinical workflows. The goal of this multisite study conducted within the NIDA Clinical Trials Network, CTN-0059, was to assess the performance of the TAPS tool in primary care patients by comparing it with a reference standard measure, the modified World Mental Health Composite International Diagnostic Interview (CIDI), which measures problem use and substance use disorder (SUD). The study was conducted at 5 adult primary care clinics with 2000 adult patients consecutively recruited from clinic waiting areas. Results found that interviewer- and self-administered versions of the TAPS tool had similar diagnostic characteristics. For identifying problem use (at a cutoff of 1+), the TAPS tool had a sensitivity of 0.93 (95%CI, 0.90 to 0.95) and specificity of 0.87 (CI, 0.85 to 0.89) for tobacco and a sensitivity of 0.74 (CI, 0.70 to 0.78) and specificity of 0.79 (CI, 0.76 to 0.81) for alcohol. For problem use of illicit and prescription drugs, sensitivity ranged from 0.82 (CI, 0.76 to 0.87) for marijuana to 0.63 (CI, 0.47 to 0.78) for sedatives; specificity was 0.93 or higher. For identifying any SUD (at a cutoff of 2+), sensitivity was lower. Limitations of this study included the low prevalence of some drug classes, leading to poor precision in some estimates. Also, research assistants were not blinded to participants' TAPS tool responses when they administered the CIDI. Conclusions: Having information about a patient's substance use is essential for ensuring the quality and safety of medical care. This study supports the use of the TAPS tool (at a cutoff of 1+) in screening diverse populations of adult primary care patients for problem substance use. Although it may detect tobacco, alcohol, and marijuana use disorders, further refinement is needed before it can be recommended broadly for SUD screening. Because it asks a limited number of questions to identify problem use of all commonly used substances and has the flexibility to be either self-administered or completed as an interview, the TAPS tool has the potential to ease barriers to incorporating substance use screening into busy clinical environments. (Article (Peer-Reviewed), PDF, English, 2016) Keywords: Alcohol | CTN primary outcomes | Integrated medical and behavioral health care | Prescription-type opiates | Primary care | Screening and assessment instruments | Smoking | Annals of Internal Medicine (journal) Document No: 1226, PMID: 27595276, PMCID: PMC5291717. Submitted by Jack Blaine, MD, NIDA CCTN, 9/8/2016.</ProjectTitle>
+  <CitationSet>
+    <Citation>CTN-0059 Primary Outcomes</Citation>
+  </CitationSet>
+  <AuthorSet>
+    <Name>Performance of the Tobacco</Name>
+    <DegreeSet>
+      <Degree>Alcohol</Degree>
+      <Degree>Prescription Medication</Degree>
+      <Degree>and Other Substance Use</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>TAPS) Tool for Substance Use Screening in Primary Care Patients.</Affiliation>
+    </AffiliationSet>
+  </AuthorSet>
+  <ProjectDescription>
+    <Abstract>
+      <AbstractText>Annals of Internal Medicine 2016;165(10):690-699. [doi: 10.7326/M16-0317]</AbstractText>
+      <PopulationSpecification>
+        <Enrollment>
+          <CriterionSet>
+            <Criterion>
+              <CriterionType>placeholder</CriterionType>
+              <CriterionSpecification>placeholder</CriterionSpecification>
+            </Criterion>
+          </CriterionSet>
+        </Enrollment>
+        <Allocation>
+          <AllocationPredicate>
+            <AllocationPredicateFunction>
+              <AllocationPredicateFunctionSignature>placeholder</AllocationPredicateFunctionSignature>
+              <AllocationPredicateFunctionArgumentSet>
+                <AllocationPredicateFunctionArgument>
+                  <AllocationPredicateFunctionArgumentName>placeholder</AllocationPredicateFunctionArgumentName>
+                  <AllocationPredicateFunctionArgumentValue>placeholder</AllocationPredicateFunctionArgumentValue>
+                </AllocationPredicateFunctionArgument>
+              </AllocationPredicateFunctionArgumentSet>
+            </AllocationPredicateFunction>
+          </AllocationPredicate>
+        </Allocation>
+        <AllocatedStudyArmSet>
+          <AllocatedStudyArm>
+            <Name>placeholder</Name>
+            <InitialSize>
+              <SubgroupSet>
+                <Subgroup>
+                  <Name>placeholder</Name>
+                  <Size>placeholder</Size>
+                </Subgroup>
+              </SubgroupSet>
+            </InitialSize>
+            <InterventionSet>
+              <Intervention>placeholder</Intervention>
+            </InterventionSet>
+            <MetricResultSet>
+              <MetricResult/>
+            </MetricResultSet>
+          </AllocatedStudyArm>
+        </AllocatedStudyArmSet>
+        <PlannedActionSet>
+          <PlannedAction>
+            <Name>placeholder</Name>
+            <IntendedTargetPopulation>placeholder</IntendedTargetPopulation>
+            <PlannedActionSpecification>
+              <TypeOfAction>placeholder</TypeOfAction>
+              <TypeSpecificFields/>
+            </PlannedActionSpecification>
+          </PlannedAction>
+        </PlannedActionSet>
+        <MetricSpecificationSet>
+          <MetricSpecification>
+            <Name>placeholder</Name>
+            <Measurement>
+              <MeasurementName>placeholder</MeasurementName>
+              <MeasurementUnits>placeholder</MeasurementUnits>
+            </Measurement>
+            <IntendedTargetPopulationSet>
+              <IntendedTargetPopulation>
+                <Name>placeholder</Name>
+                <Value>placeholder</Value>
+              </IntendedTargetPopulation>
+            </IntendedTargetPopulationSet>
+            <StatisticSpecification>
+              <StatisticName>placeholder</StatisticName>
+              <ModifierSet>
+                <Modifier>placeholder</Modifier>
+              </ModifierSet>
+              <FalsePositiveChance>0.05</FalsePositiveChance>
+            </StatisticSpecification>
+          </MetricSpecification>
+        </MetricSpecificationSet>
+        <MetricResultSet>
+          <MetricResult>
+            <MetricName>placeholder</MetricName>
+            <AllocatedStudyArmSet>
+              <AllocatedStudyArm>
+                <Name>placeholder</Name>
+                <MetricValue>placeholder</MetricValue>
+              </AllocatedStudyArm>
+            </AllocatedStudyArmSet>
+          </MetricResult>
+        </MetricResultSet>
+      </PopulationSpecification>
+      <Conclusion>Jennifer McNeely, MD, MS (New York University, GNY Node), Li-Tzy Wu, ScD (Duke University, MS Node), Geetha Subramaniam, MD (NIDA Center for the Clinical Trials Network), Gaurav Sharma, PhD (CTN Data Statistics Center, Emmes), Lauretta A. Cathers, PhD (Virginia Commonwealth University, MA Node), Dace Svikis, PhD (Virginia Commonwealth University, MA Node), Luke Seliter, MPH (New York University, GNY Node), Linnea Russell (New York University, GNY Node), Courtney Nordeck (Friends Research Institute, MA Node), Anjalee Sharma, MSW (Friends Research Institute, MA Node), Kevin E. O'Grady, PhD (University of Maryland), Leah B. Bouk, MBA (Duke University, MS Node), Carol Cushing, BBA, RN (NIDA Center for the Clinical Trials Network), Jacqueline King, MS (CTN Data Statistics Center, Emmes), Aimee Wahle, MS (CTN Data Statistics Center, Emmes), Robert P. Schwartz, MD (Friends Research Institute, MA Node).</Conclusion>
+      <KeywordSet>
+        <Keyword>This is the Primary Outcomes Article for CTN-0059. Substance use, a leading cause of illness and death, is underidentified in medical practice. The Tobacco, Alcohol, Prescription Medication, and Other Substance Use (TAPS) tool was developed to address the need for a brief screening and assessment instrument that includes all commonly used substances and fits into clinical workflows. The goal of this multisite study conducted within the NIDA Clinical Trials Network, CTN-0059, was to assess the performance of the TAPS tool in primary care patients by comparing it with a reference standard measure, the modified World Mental Health Composite International Diagnostic Interview (CIDI), which measures problem use and substance use disorder (SUD).</Keyword>
+      </KeywordSet>
+    </Abstract>
+  </ProjectDescription>
+</Project>

@@ -1,0 +1,205 @@
+ <?xml version="1.0"?>
+<Project>
+  <ProjectTitle>Site Matters: Multisite Randomized Trial of Motivational Enhancement Therapy in Community Drug Abuse Clinics.</ProjectTitle>
+  <CitationSet>
+    <Citation>
+        <CitationType>Current</CitationType>
+      <PMID></PMID>
+      <DOI>10.1037/0022-006X.75.4.556</DOI>   
+      <PMCID>Placeholder</PMCID> 
+      <JournalCitation>
+          <JournalName>ournal of Consulting and Clinical Psychology</JournalName>
+          <JournalYear>2007</JournalYear>
+          <JournalIssue>75</JournalIssue>
+          <JournalNumber>4</JournalNumber>
+          <PageSet>
+            <PageStart>556</PageStart>
+            <PageEnd>567</PageEnd>
+          </PageSet>
+      </JournalCitation>
+      </Citation>
+  </CitationSet>
+  <AuthorSet>
+    <Name>Samuel A. Ball</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Yale Community School of Medicine, NE Node</Affiliation>
+    </AffiliationSet>
+    <Name>Deborah Van Horn</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>University of Pennsylvania School of Medicine, DV Node</Affiliation>
+    </AffiliationSet>
+    <Name>Paul Crits-Christoph</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>University of Pennsylvania School of Medicine, DV Node</Affiliation>
+    </AffiliationSet>
+    <Name>George E. Woody</Name>
+    <DegreeSet>
+      <Degree>MD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>University of Pennsylvania School of Medicine, DV Node</Affiliation>
+    </AffiliationSet>
+    <Name>Christiane Farentinos</Name>
+    <DegreeSet>
+      <Degree>MD</Degree>
+      <Degree>MPH</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>ChangePoint, Inc, OR Node</Affiliation>
+    </AffiliationSet>
+    <Name>Steve Martino</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Connecticut VA Healthcare Center, Yale University, NE Node</Affiliation>
+    </AffiliationSet>
+    <Name>Charla Nich</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>Connecticut VA Healthcare Center, Yale University, NE Node</Affiliation>
+    </AffiliationSet>
+    <Name>Tami L. Frankforter</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>Connecticut VA Healthcare Center, Yale University, NE Node</Affiliation>
+    </AffiliationSet>
+    <Name>Jeanne L. Obert</Name>
+    <DegreeSet>
+      <Degree>MA</Degree>
+      <Degree>MSM</Degree>
+      <Degree>MFT</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Matrix Institute on Addictions, PR Node</Affiliation>
+    </AffiliationSet>
+    <Name>Kathleen M. Carroll</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Connecticut VA Healthcare Center, Yale University, NE Node).</Affiliation>
+    </AffiliationSet>
+  </AuthorSet>
+  <ProjectDescription>
+    <Abstract>
+      <AbstractText>This is the Primary Outcomes Article for CTN-0004. The effectiveness of motivational enhancement therapy (MET) in comparison with counseling as usual (CAU) for increasing retention and reducing substance use was evaluated in the National Drug Abuse Treatment Clinical Trials Network protocol CTN-0004, a multisite randomized clinical trial. Participants were 461 outpatients treated by 31 therapists within 1 of 5 outpatient substance abuse programs. Contrary to the study hypothesis, MET did not appear to be more effective than CAU for either retention measure or urine drug outcome. However, though both 3-session interventions resulted in reductions in substance use during the 4-week therapy phase, MET resulted in sustained reductions during the subsequent 12 weeks whereas CAU was associated with significant increases in substance use over this follow-up period. MET also resulted in more sustained substance use reductions than CAU among primary alcohol users, but no difference was found for primary drug users. An independent evaluation of session audiotapes indicated that MET and CAU were highly and comparably discriminable across sites.</AbstractText>
+      <PopulationSpecification>
+        <Enrollment>
+          <CriterionSet>
+            <Criterion>
+              <CriterionType>Inclusion</CriterionType>
+              <CriterionSpecification>Treated By Therapists</CriterionSpecification>
+            </Criterion>
+          </CriterionSet>
+        </Enrollment>
+        <Allocation>
+          <AllocationPredicate>
+            <AllocationPredicateFunction>
+              <AllocationPredicateFunctionSignature>rand</AllocationPredicateFunctionSignature>
+              <AllocationPredicateFunctionArgumentSet>
+              </AllocationPredicateFunctionArgumentSet>
+            </AllocationPredicateFunction>
+          </AllocationPredicate>
+        </Allocation>
+        <AllocatedStudyArmSet>
+          <AllocatedStudyArm>
+            <Name>Counseling As Usual</Name>
+            <InitialSize>
+              <SubgroupSet>
+                <Subgroup>
+                  <Name>placeholder</Name>
+                  <Size>placeholder</Size>
+                </Subgroup>
+              </SubgroupSet>
+            </InitialSize>
+            <InterventionSet>
+              <Intervention>placeholder</Intervention>
+            </InterventionSet>
+            <MetricResultSet>
+              <MetricResult/>
+            </MetricResultSet>
+          </AllocatedStudyArm>
+          <AllocatedStudyArm>
+            <Name>Motivational Enhancement Therapy</Name>
+            <InitialSize>
+              <SubgroupSet>
+                <Subgroup>
+                  <Name>placeholder</Name>
+                  <Size>placeholder</Size>
+                </Subgroup>
+              </SubgroupSet>
+            </InitialSize>
+            <InterventionSet>
+              <Intervention>placeholder</Intervention>
+            </InterventionSet>
+            <MetricResultSet>
+              <MetricResult/>
+            </MetricResultSet>
+          </AllocatedStudyArm>
+        </AllocatedStudyArmSet>
+        <PlannedActionSet>
+          <PlannedAction>
+            <Name>placeholder</Name>
+            <IntendedTargetPopulation>placeholder</IntendedTargetPopulation>
+            <PlannedActionSpecification>
+              <TypeOfAction>placeholder</TypeOfAction>
+              <TypeSpecificFields/>
+            </PlannedActionSpecification>
+          </PlannedAction>
+        </PlannedActionSet>
+        <MetricSpecificationSet>
+          <MetricSpecification>
+            <Name>placeholder</Name>
+            <Measurement>
+              <MeasurementName>placeholder</MeasurementName>
+              <MeasurementUnits>placeholder</MeasurementUnits>
+            </Measurement>
+            <IntendedTargetPopulationSet>
+              <IntendedTargetPopulation>
+                <Name>placeholder</Name>
+                <Value>placeholder</Value>
+              </IntendedTargetPopulation>
+            </IntendedTargetPopulationSet>
+            <StatisticSpecification>
+              <StatisticName>placeholder</StatisticName>
+              <ModifierSet>
+                <Modifier>placeholder</Modifier>
+              </ModifierSet>
+              <FalsePositiveChance>0.05</FalsePositiveChance>
+            </StatisticSpecification>
+          </MetricSpecification>
+        </MetricSpecificationSet>
+        <MetricResultSet>
+          <MetricResult>
+            <MetricName>placeholder</MetricName>
+            <AllocatedStudyArmSet>
+              <AllocatedStudyArm>
+                <Name>placeholder</Name>
+                <MetricValue>placeholder</MetricValue>
+              </AllocatedStudyArm>
+            </AllocatedStudyArmSet>
+          </MetricResult>
+        </MetricResultSet>
+      </PopulationSpecification>
+      <Conclusion>Conclusions: Though MET did not appear to be more effective than CAU for either retention measure nor urine drug outcome, the results of this study and its companion single-session protocol (Carroll et al, 2006) indicated that community-based therapists can learn to deliver MET effectively even in the absence of a priori allegiance, interest, or training in the model. Future analyses will evaluate the relationship between therapist experience, skill, adherence, and treatment outcomes. (Article (Peer-Reviewed), PDF, English, 2007)</Conclusion>
+      <KeywordSet>
+        <Keyword>Behavior therapy</Keyword>
+        <Keyword>CTN primary outcomes</Keyword>
+        <Keyword>Motivational Enhancement Therapy (MET)</Keyword>
+        <Keyword>Motivational interviewing (MI)</Keyword>
+        <Keyword>Retention - Treatment</Keyword>
+        <Keyword>Journal of Consulting and Clinical Psychology (journal) </Keyword>
+      </KeywordSet>
+    </Abstract>
+  </ProjectDescription>
+</Project>

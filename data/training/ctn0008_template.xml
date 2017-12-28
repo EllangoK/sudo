@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<Project>
+  <ProjectTitle>Treatment Programs in the National Drug Abuse Treatment Clinical Trials Network.</ProjectTitle>
+  <CitationSet>
+    <Citation>Drug and Alcohol Dependence 2008;92:200-207. [doi: 10.1016/j.drugalcdep.2007.08.004]</Citation>
+  </CitationSet>
+  <AuthorSet>
+    <Name>Dennis McCarty</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Oregon Health Science University, OR/HI Node</Affiliation>
+    </AffiliationSet>
+    <Name>Bret E. Fuller</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Oregon Health Science University, OR/HI Node</Affiliation>
+    </AffiliationSet>
+    <Name>Lee Ann Kaskutas</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Alcohol Research Group, CA/AZ Node</Affiliation>
+    </AffiliationSet>
+    <Name>William W. Wendt</Name>
+    <DegreeSet>
+      <Degree>JD</Degree>
+      <Degree>CAC</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Signal Behavioral Health Network, RM Node</Affiliation>
+    </AffiliationSet>
+    <Name>Edward V. Nues</Name>
+    <DegreeSet>
+      <Degree>MD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Columbia University, LI Node</Affiliation>
+    </AffiliationSet>
+    <Name>Michael Miller</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Village South, Inc., FL Node</Affiliation>
+    </AffiliationSet>
+    <Name>Robert F. Forman</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Alkermes, Inc, Cambridge, MA</Affiliation>
+    </AffiliationSet>
+    <Name>Kathryn M. Magruder</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+      <Degree>MPH</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Medical University of South Carolina, SC Node</Affiliation>
+    </AffiliationSet>
+    <Name>Cynthia L. Arfken</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Wayne State University, GL Node</Affiliation>
+    </AffiliationSet>
+    <Name>Marc L. Copersino</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>McLean Hospital, NNE Node</Affiliation>
+    </AffiliationSet>
+    <Name>Anthony S. Floyd</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Alcohol and Drug Abuse Institute, University of Washington, PN Node</Affiliation>
+    </AffiliationSet>
+    <Name>Jody L. Sindelar</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Yale University School of Medicine, NE Node</Affiliation>
+    </AffiliationSet>
+    <Name>Eldon Edmundson</Name>
+    <DegreeSet>
+      <Degree>Jr.</Degree>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Oregon Health Science University, OR/HI Node).</Affiliation>
+    </AffiliationSet>
+  </AuthorSet>
+  <ProjectDescription>
+    <Abstract>
+      <AbstractText>This is the Primary Outcomes Article for CTN-0008. Drug abuse treatment programs and university-based research centers collaborate to test emerging therapies for alcohol and drug disorders in the National Drug Abuse Treatment Clinical Trials Network (CTN). Programs participating in the CTN completed Organizational Surveys (n=106 of 112; 95% response rate) and Treatment Unit Surveys (n=348 of 384; 91% response rate) to describe the levels of care, ancillary services, patient demographics, patient drug use and co-occurring conditions. Analyses describe the corporations participating in the CTN and provide an exploratory assessment of variation in the treatment philosophies. A diversity of treatment centers participate in the CTN; not for profit organizations with a primary mission of treating alcohol and drug disorders dominate. Compared to the National Survey of Substance Abuse Treatment Services (N-SSATS), programs located in medical settings are over-represented and centers that are mental health clinics are under-represented. Outpatient, methadone, long-term residential and inpatient treatment units different on patients served and services provided. Larger programs with higher counselor caseloads in residential settings reported more social model characteristics. Programs with higher social model scores were more likely to offer self-help meetings, vocational services and specialized services for women. Conversely, programs with accreditation had less social model influence. The CTN is an ambitious effort to engage community-based treatment organizations into research and more fully integrate research and practice. (Article (Peer-Reviewed), PDF, English, 2007)</AbstractText>
+      <PopulationSpecification>
+        <Enrollment>
+          <CriterionSet>
+            <Criterion>
+              <CriterionType>placeholder</CriterionType>
+              <CriterionSpecification>placeholder</CriterionSpecification>
+            </Criterion>
+          </CriterionSet>
+        </Enrollment>
+        <Allocation>
+          <AllocationPredicate>
+            <AllocationPredicateFunction>
+              <AllocationPredicateFunctionSignature>placeholder</AllocationPredicateFunctionSignature>
+              <AllocationPredicateFunctionArgumentSet>
+                <AllocationPredicateFunctionArgument>
+                  <AllocationPredicateFunctionArgumentName>placeholder</AllocationPredicateFunctionArgumentName>
+                  <AllocationPredicateFunctionArgumentValue>placeholder</AllocationPredicateFunctionArgumentValue>
+                </AllocationPredicateFunctionArgument>
+              </AllocationPredicateFunctionArgumentSet>
+            </AllocationPredicateFunction>
+          </AllocationPredicate>
+        </Allocation>
+        <AllocatedStudyArmSet>
+          <AllocatedStudyArm>
+            <Name>placeholder</Name>
+            <InitialSize>
+              <SubgroupSet>
+                <Subgroup>
+                  <Name>placeholder</Name>
+                  <Size>placeholder</Size>
+                </Subgroup>
+              </SubgroupSet>
+            </InitialSize>
+            <InterventionSet>
+              <Intervention>placeholder</Intervention>
+            </InterventionSet>
+            <MetricResultSet>
+              <MetricResult/>
+            </MetricResultSet>
+          </AllocatedStudyArm>
+        </AllocatedStudyArmSet>
+        <PlannedActionSet>
+          <PlannedAction>
+            <Name>placeholder</Name>
+            <IntendedTargetPopulation>placeholder</IntendedTargetPopulation>
+            <PlannedActionSpecification>
+              <TypeOfAction>placeholder</TypeOfAction>
+              <TypeSpecificFields/>
+            </PlannedActionSpecification>
+          </PlannedAction>
+        </PlannedActionSet>
+        <MetricSpecificationSet>
+          <MetricSpecification>
+            <Name>placeholder</Name>
+            <Measurement>
+              <MeasurementName>placeholder</MeasurementName>
+              <MeasurementUnits>placeholder</MeasurementUnits>
+            </Measurement>
+            <IntendedTargetPopulationSet>
+              <IntendedTargetPopulation>
+                <Name>placeholder</Name>
+                <Value>placeholder</Value>
+              </IntendedTargetPopulation>
+            </IntendedTargetPopulationSet>
+            <StatisticSpecification>
+              <StatisticName>placeholder</StatisticName>
+              <ModifierSet>
+                <Modifier>placeholder</Modifier>
+              </ModifierSet>
+              <FalsePositiveChance>0.05</FalsePositiveChance>
+            </StatisticSpecification>
+          </MetricSpecification>
+        </MetricSpecificationSet>
+        <MetricResultSet>
+          <MetricResult>
+            <MetricName>placeholder</MetricName>
+            <AllocatedStudyArmSet>
+              <AllocatedStudyArm>
+                <Name>placeholder</Name>
+                <MetricValue>placeholder</MetricValue>
+              </AllocatedStudyArm>
+            </AllocatedStudyArmSet>
+          </MetricResult>
+        </MetricResultSet>
+      </PopulationSpecification>
+      <Conclusion>Keywords: Attitudes of health personnel | Community health services | Counselors | CTN primary outcomes | CTP participation | Social Model Philosophy Scale (SMPS) | Vocational rehabilitation | Women | Drug and Alcohol Dependence (journal)</Conclusion>
+      <KeywordSet/>
+    </Abstract>
+  </ProjectDescription>
+</Project>

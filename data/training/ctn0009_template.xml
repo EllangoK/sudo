@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<Project>
+  <ProjectTitle>Smoking Cessation Treatment at Community-Based Substance Abuse Rehabilitation Programs.</ProjectTitle>
+  <CitationSet>
+    <Citation>Journal of Substance Abuse Treatment 2008;35(1):68-77. [doi: 10.1016/j.jsat.2007.08.010]</Citation>
+  </CitationSet>
+  <AuthorSet>
+    <Name>Malcolm S. Reid</Name>
+    <DegreeSet>
+      <Degree>Ph.D.</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>New York University School of Medicine, NY Node</Affiliation>
+    </AffiliationSet>
+    <Name>Bryan Fallon</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Mount Sinai Hospital, NY Node</Affiliation>
+    </AffiliationSet>
+    <Name>Susan C. Sonne</Name>
+    <DegreeSet>
+      <Degree>PharmD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Medical University of South Carolina, SC Node</Affiliation>
+    </AffiliationSet>
+    <Name>Frank Flammino</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+      <Degree>MBA</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>New York University School of Medicine</Affiliation>
+    </AffiliationSet>
+    <Name>Edward V. Nues</Name>
+    <DegreeSet>
+      <Degree>MD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Columbia University and New York State Psychiatric Institute, LI Node</Affiliation>
+    </AffiliationSet>
+    <Name>Huiping Jiang</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>New York State Psychiatric Institute, LI Node</Affiliation>
+    </AffiliationSet>
+    <Name>Eva Kourniotis</Name>
+    <DegreeSet>
+      <Degree>MS</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>New York State Psychiatric Institute, LI Node</Affiliation>
+    </AffiliationSet>
+    <Name>Jennifer Lima</Name>
+    <DegreeSet>
+      <Degree>MPH</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>New York State Psychiatric Institute, LI Node</Affiliation>
+    </AffiliationSet>
+    <Name>Ronald Brady</Name>
+    <DegreeSet>
+      <Degree>MD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Narco Freedom, Inc., LI Node</Affiliation>
+    </AffiliationSet>
+    <Name>Cynthia Burgess</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>Behavioral Health Services of Pickens County, SC Node</Affiliation>
+    </AffiliationSet>
+    <Name>Cynthia L. Arfken</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Wayne State University, GL Node</Affiliation>
+    </AffiliationSet>
+    <Name>Eric Pihlgren</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Wayne State University, GL Node</Affiliation>
+    </AffiliationSet>
+    <Name>Louis Giordano</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Duke University, NC Node</Affiliation>
+    </AffiliationSet>
+    <Name>Aron Starosta</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>New York University School of Medicine, NY Node</Affiliation>
+    </AffiliationSet>
+    <Name>James A. Robinson</Name>
+    <DegreeSet>
+      <Degree>MEd</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Nathan Kline Institute for Psychiatric Reserach, NY/LI Node</Affiliation>
+    </AffiliationSet>
+    <Name>John Rotrosen</Name>
+    <DegreeSet>
+      <Degree>MD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>New York University, NY Node).</Affiliation>
+    </AffiliationSet>
+  </AuthorSet>
+  <ProjectDescription>
+    <Abstract>
+      <AbstractText>This is the Primary Outcomes Article for CTN-0009. Nicotine dependence is highly prevalent among drug- and alcohol-dependent patients. A multisite clinical trial of smoking cessation (SC) treatment (CTN-0009) was performed at outpatient community-based substance abuse rehabilitation programs affiliated with the National Drug Abuse Treatment Clinical Trials Network. Cigarette smokers (N = 225) from five methadone maintenance programs and two drug and alcohol dependence treatment programs were randomly assigned in a 2:1 ratio to receive either (1) SC treatment as an adjunct to substance abuse treatment-as-usual (TAU) or (2) substance abuse TAU. Smoking cessation treatment consisted of 1 week of group counseling before the target quit date and 8 weeks of group counseling plus transdermal nicotine patch treatment (21 mg/day for Weeks 16 and 14 mg/day for Weeks 7 and 8) after the target quit date. Smoking abstinence rates in SC, 10%11% during treatment and 5%6% at the 13- and 26-week follow-up visits, were significantly better than those in TAU during treatment (p .01). In addition, SC was associated with significantly greater reductions as compared with TAU in cigarettes smoked per day (75% reduction, p .001), exhaled carbon monoxide levels (p .001), cigarette craving (p .05), and nicotine withdrawal (p .05). Smoking cessation did not differ from TAU on rates of retention in substance abuse treatment, abstinence from primary substance of abuse, and craving for primary substance of abuse. Compliance with SC treatment, moderate at best, was positively associated with smoking abstinence rates.</AbstractText>
+      <PopulationSpecification>
+        <Enrollment>
+          <CriterionSet>
+            <Criterion>
+              <CriterionType>placeholder</CriterionType>
+              <CriterionSpecification>placeholder</CriterionSpecification>
+            </Criterion>
+          </CriterionSet>
+        </Enrollment>
+        <Allocation>
+          <AllocationPredicate>
+            <AllocationPredicateFunction>
+              <AllocationPredicateFunctionSignature>placeholder</AllocationPredicateFunctionSignature>
+              <AllocationPredicateFunctionArgumentSet>
+                <AllocationPredicateFunctionArgument>
+                  <AllocationPredicateFunctionArgumentName>placeholder</AllocationPredicateFunctionArgumentName>
+                  <AllocationPredicateFunctionArgumentValue>placeholder</AllocationPredicateFunctionArgumentValue>
+                </AllocationPredicateFunctionArgument>
+              </AllocationPredicateFunctionArgumentSet>
+            </AllocationPredicateFunction>
+          </AllocationPredicate>
+        </Allocation>
+        <AllocatedStudyArmSet>
+          <AllocatedStudyArm>
+            <Name>placeholder</Name>
+            <InitialSize>
+              <SubgroupSet>
+                <Subgroup>
+                  <Name>placeholder</Name>
+                  <Size>placeholder</Size>
+                </Subgroup>
+              </SubgroupSet>
+            </InitialSize>
+            <InterventionSet>
+              <Intervention>placeholder</Intervention>
+            </InterventionSet>
+            <MetricResultSet>
+              <MetricResult/>
+            </MetricResultSet>
+          </AllocatedStudyArm>
+        </AllocatedStudyArmSet>
+        <PlannedActionSet>
+          <PlannedAction>
+            <Name>placeholder</Name>
+            <IntendedTargetPopulation>placeholder</IntendedTargetPopulation>
+            <PlannedActionSpecification>
+              <TypeOfAction>placeholder</TypeOfAction>
+              <TypeSpecificFields/>
+            </PlannedActionSpecification>
+          </PlannedAction>
+        </PlannedActionSet>
+        <MetricSpecificationSet>
+          <MetricSpecification>
+            <Name>placeholder</Name>
+            <Measurement>
+              <MeasurementName>placeholder</MeasurementName>
+              <MeasurementUnits>placeholder</MeasurementUnits>
+            </Measurement>
+            <IntendedTargetPopulationSet>
+              <IntendedTargetPopulation>
+                <Name>placeholder</Name>
+                <Value>placeholder</Value>
+              </IntendedTargetPopulation>
+            </IntendedTargetPopulationSet>
+            <StatisticSpecification>
+              <StatisticName>placeholder</StatisticName>
+              <ModifierSet>
+                <Modifier>placeholder</Modifier>
+              </ModifierSet>
+              <FalsePositiveChance>0.05</FalsePositiveChance>
+            </StatisticSpecification>
+          </MetricSpecification>
+        </MetricSpecificationSet>
+        <MetricResultSet>
+          <MetricResult>
+            <MetricName>placeholder</MetricName>
+            <AllocatedStudyArmSet>
+              <AllocatedStudyArm>
+                <Name>placeholder</Name>
+                <MetricValue>placeholder</MetricValue>
+              </AllocatedStudyArm>
+            </AllocatedStudyArmSet>
+          </MetricResult>
+        </MetricResultSet>
+      </PopulationSpecification>
+      <Conclusion>Conclusions: Smoking cessation treatment resulted in significant reductions in daily smoking and modest smoking abstinence rates without having an adverse impact on substance abuse rehabilitation when given concurrently with outpatient substance abuse treatment. Substance abuse treatment programs should not hesitate to implement SC for established patients. (Article (Peer-reviewed), PDF, English, 2007)</Conclusion>
+      <KeywordSet>
+        <Keyword>CTN primary outcomes</Keyword>
+        <Keyword>Community health services</Keyword>
+        <Keyword>Methadone maintenance</Keyword>
+        <Keyword>Nicotine replacement therapy</Keyword>
+        <Keyword>Pharmacological therapy</Keyword>
+        <Keyword>Smoking</Keyword>
+        <Keyword>Journal of Substance Abuse Treatment (journal) </Keyword>
+      </KeywordSet>
+    </Abstract>
+  </ProjectDescription>
+</Project>

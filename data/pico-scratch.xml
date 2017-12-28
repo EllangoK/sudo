@@ -1,0 +1,50 @@
+<Project>
+	<Population>
+		<!-- Population: How would I describe the population to be studied? -->
+		<Enrollment>
+			<!-- Parition between those in study and those not in study-->
+		</Enrollment>
+		<Allocation>
+			<!-- Partition between those in one area of the study versus another -->
+		</Allocation>
+	</Population>
+
+	<Intervention>
+		<!-- What is the intervention, prognostic factor, or exposure under consideration? -->
+	</Intervention>
+
+	<Comparison>
+		<!--What is the alternative (frame of reference) against which we compare the intervention? -->
+	</Comparison>
+		<!-- It seems that Intervention and Compairson are descendants of the same class -->
+
+	<Outcome>
+	</Outcome>
+</Project>	
+
+Perhaps:
+<PlannedActionSet>
+	<PlannedAction>
+		<Name>InterventionOfInterest</Name>
+		<IntendedTarget></IntendedTarget>
+		<PlannedActionSpecification>
+			<TypeOfAction></TypeOfAction>
+			<DurationOfAction></DurationOfAction>
+			<!-- Type Specific Fields -->
+		</PlannedActionSpecification>
+
+	</PlannedAction>
+	<PlannedAction>
+		<Name>InterventionForComparison</Name>
+		<IntendedTarget></IntendedTarget>
+	</PlannedAction>
+</PlannedActionSet>
+
+<!--  
+	I am trying to take a literal view. 
+
+	A study refers to a template (generically depedendent continuant) for giving certain treatments to certain people. 
+
+	Let the theories be inferred so that the theories are derived from the observations in a logically consistent fashion. 
+
+	-->

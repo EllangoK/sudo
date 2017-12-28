@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<Project>
+  <ProjectTitle>string</ProjectTitle>
+  <CitationSet>
+    <!--1 or more repetitions:-->
+    <Citation>
+      <CitationType>string</CitationType>
+      <PMID>3</PMID>
+      <DOI>string</DOI>
+      <PMCID>string</PMCID>
+      <JournalCitation>
+        <JournalName>string</JournalName>
+        <JournalYear>3</JournalYear>
+        <JournalIssue>3</JournalIssue>
+        <JournalNumber>3</JournalNumber>
+        <PageSet>
+          <PageStart>3</PageStart>
+          <PageEnd>3</PageEnd>
+        </PageSet>
+      </JournalCitation>
+    </Citation>
+  </CitationSet>
+  <AuthorSet>
+    <!--1 or more repetitions:-->
+    <Author>
+      <Name>string</Name>
+      <DegreeSet>
+        <Degree>string</Degree>
+      </DegreeSet>
+      <AffiliationSet>
+        <Affiliation>string</Affiliation>
+      </AffiliationSet>
+    </Author>
+  </AuthorSet>
+  <ProjectDescription>
+    <Abstract>
+      <Background>string</Background>
+      <PopulationSpecification>
+        <Enrollment>
+          <CriterionSet>
+            <!--1 or more repetitions:-->
+            <Criterion>
+              <CriterionType>string</CriterionType>
+              <CriterionSpecification>string</CriterionSpecification>
+            </Criterion>
+          </CriterionSet>
+        </Enrollment>
+        <Allocation>
+          <AllocationPredicate>
+            <AllocationPredicateFunction>
+              <AllocationPredicateFunctionSignature>string</AllocationPredicateFunctionSignature>
+              <AllocationPredicateFunctionArgumentSet>
+                <AllocationPredicateFunctionArgument>
+                  <AllocationPredicateFunctionArgumentName>string</AllocationPredicateFunctionArgumentName>
+                  <AllocationPredicateFunctionArgumentValue>3</AllocationPredicateFunctionArgumentValue>
+                </AllocationPredicateFunctionArgument>
+              </AllocationPredicateFunctionArgumentSet>
+            </AllocationPredicateFunction>
+            <AllocationPredicateValueIfTrue>string</AllocationPredicateValueIfTrue>
+            <AllocationPredicateValueIfFalse>string</AllocationPredicateValueIfFalse>
+          </AllocationPredicate>
+        </Allocation>
+        <AllocatedStudyArmSet>
+          <!--1 or more repetitions:-->
+          <AllocatedStudyArm>
+            <Name>string</Name>
+            <InitialSize>
+              <SubgroupSet>
+                <!--1 or more repetitions:-->
+                <Subgroup>
+                  <Name>string</Name>
+                  <Size>3</Size>
+                </Subgroup>
+              </SubgroupSet>
+            </InitialSize>
+            <InterventionSet>
+              <Intervention>string</Intervention>
+            </InterventionSet>
+            <MetricResultSet>
+              <MetricResult>string</MetricResult>
+            </MetricResultSet>
+          </AllocatedStudyArm>
+        </AllocatedStudyArmSet>
+      </PopulationSpecification>
+      <PlannedActionSet>
+        <!--1 or more repetitions:-->
+        <PlannedAction>
+          <Name>string</Name>
+          <IntendedTargetPopulation>string</IntendedTargetPopulation>
+          <PlannedActionSpecification>
+            <TypeOfAction>string</TypeOfAction>
+            <DrugAdministrationScheduleSet>
+              <DrugAdministrationSchedule>
+                <Substance>string</Substance>
+                <Duration>string</Duration>
+                <Frequency>string</Frequency>
+                <Dose>string</Dose>
+              </DrugAdministrationSchedule>
+            </DrugAdministrationScheduleSet>
+            <DurationOfAction>anyType</DurationOfAction>
+          </PlannedActionSpecification>
+        </PlannedAction>
+      </PlannedActionSet>
+      <MetricSpecificationSet>
+        <!--1 or more repetitions:-->
+        <MetricSpecification>
+          <Name>string</Name>
+          <Measurement>
+            <MeasurementName>string</MeasurementName>
+            <MeasurementUnits>string</MeasurementUnits>
+          </Measurement>
+          <IntendedTargetPopulationSet>
+            <!--1 or more repetitions:-->
+            <IntendedTargetPopulation>
+              <Name>string</Name>
+              <Value>anyType</Value>
+            </IntendedTargetPopulation>
+          </IntendedTargetPopulationSet>
+          <StatisticSpecification>
+            <StatisticName>anyType</StatisticName>
+            <ModifierSet>
+              <Modifier>anyType</Modifier>
+            </ModifierSet>
+            <FalsePositiveChance>anyType</FalsePositiveChance>
+          </StatisticSpecification>
+        </MetricSpecification>
+      </MetricSpecificationSet>
+      <MetricResultSet>
+        <!--1 or more repetitions:-->
+        <MetricResult>
+          <MetricName>string</MetricName>
+          <StudyArmSet>
+            <!--1 or more repetitions:-->
+            <StudyArm>
+              <Name>string</Name>
+              <MetricValue>string</MetricValue>
+            </StudyArm>
+          </StudyArmSet>
+        </MetricResult>
+      </MetricResultSet>
+      <AbstractText>string</AbstractText>
+    </Abstract>
+    <Conclusion>string</Conclusion>
+    <KeywordSet>
+      <!--1 or more repetitions:-->
+      <Keyword>string</Keyword>
+    </KeywordSet>
+  </ProjectDescription>
+  <ProtocolSet>
+    <!--1 or more repetitions:-->
+    <Protocol>
+      <Name>string</Name>
+      <Detail>
+        <Url>string</Url>
+      </Detail>
+    </Protocol>
+  </ProtocolSet>
+  <ParticipatingNodeSet>
+    <!--1 or more repetitions:-->
+    <ParticipatingNode>
+      <Name>string</Name>
+      <Role>string</Role>
+    </ParticipatingNode>
+  </ParticipatingNodeSet>
+</Project>

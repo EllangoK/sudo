@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<Project>
+  <ProjectTitle>Motivational Interviewing to Improve Treatment Engagement and Outcome in Individuals Seeking Treatment for Substance Abuse: A Multisite Effectiveness Study.</ProjectTitle>
+  <CitationSet>
+    <Citation>Drug and Alcohol Dependence 2006; 81(3):301-312. [doi: 10.1016/j.drugalcdep.2005.08.002]</Citation>
+  </CitationSet>
+  <AuthorSet>
+    <Name>Kathleen M. Carroll</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Yale University School of Medicine, NE Node</Affiliation>
+    </AffiliationSet>
+    <Name>Samuel A. Ball</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Yale University School of Medicine, NE Node</Affiliation>
+    </AffiliationSet>
+    <Name>Charla Nich</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>Yale University School of Medicine, NE Node</Affiliation>
+    </AffiliationSet>
+    <Name>Steve Martino</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Yale University School of Medicine, NE Node</Affiliation>
+    </AffiliationSet>
+    <Name>Tami L. Frankforter</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>Yale University School of Medicine, NE Node</Affiliation>
+    </AffiliationSet>
+    <Name>Christiane Farentinos</Name>
+    <DegreeSet>
+      <Degree>MD</Degree>
+      <Degree>MPH</Degree>
+      <Degree>CADC II</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Changepoint Inc., OR/HI Node</Affiliation>
+    </AffiliationSet>
+    <Name>Lynn E. Kunkel</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>Oregon Health Science University, OR/HI Node</Affiliation>
+    </AffiliationSet>
+    <Name>Susan K. Mikulich-Gilbertson</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>University of Colorado Health Science Center</Affiliation>
+    </AffiliationSet>
+    <Name>Jon Morgenstern</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>Columbia University Medical School</Affiliation>
+    </AffiliationSet>
+    <Name>Jeanne L. Obert</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>Matrix Institute on Addictions</Affiliation>
+    </AffiliationSet>
+    <Name>Douglas L. Polcin</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>Haight Ashbury Free Clinics, Inc., PR Node</Affiliation>
+    </AffiliationSet>
+    <Name>Ned Snead</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>Chesterfield County Department of Mental Health Support Services</Affiliation>
+    </AffiliationSet>
+    <Name>George E. Woody</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>University of Pennsylvania/Philadelphia VAMC).</Affiliation>
+    </AffiliationSet>
+  </AuthorSet>
+  <ProjectDescription>
+    <Abstract>
+      <AbstractText>This is the Primary Outcomes Article for CTN-0005. Despite recent emphasis on integrating empirically validated treatment into clinical practice, there are little data on whether manual-guided behavioral therapies can be implemented in standard clinical practice and whether incorporation of such techniques is associated with improved outcomes. The effectiveness of integrating motivational interviewing (MI) techniques into the initial contact and evaluation session was evaluated in a multisite randomized clinical trial. Participants were 423 substance users entering outpatient treatment in five community-based treatment settings, who were randomized to receive either the standard intake/evaluation session at each site or the same session in which MI techniques and strategies were integrated. Clinicians were drawn from the staff of the participating programs and were randomized either to learn and implement MI or to deliver the standard intake/evaluation session. Independent analyses of 315 session audiotapes suggested the two forms of treatment were highly discriminable and that clinicians trained to implement MI tended to have higher skill ratings. Regarding outcomes, for the sample as a whole, participants assigned to MI had significantly better retention through the 28-day follow-up than those assigned to the standard intervention. There were no significant effects of MI on substance use outcomes at either the 28-day or 84-day follow-up.</AbstractText>
+      <PopulationSpecification>
+        <Enrollment>
+          <CriterionSet>
+            <Criterion>
+              <CriterionType>placeholder</CriterionType>
+              <CriterionSpecification>placeholder</CriterionSpecification>
+            </Criterion>
+          </CriterionSet>
+        </Enrollment>
+        <Allocation>
+          <AllocationPredicate>
+            <AllocationPredicateFunction>
+              <AllocationPredicateFunctionSignature>placeholder</AllocationPredicateFunctionSignature>
+              <AllocationPredicateFunctionArgumentSet>
+                <AllocationPredicateFunctionArgument>
+                  <AllocationPredicateFunctionArgumentName>placeholder</AllocationPredicateFunctionArgumentName>
+                  <AllocationPredicateFunctionArgumentValue>placeholder</AllocationPredicateFunctionArgumentValue>
+                </AllocationPredicateFunctionArgument>
+              </AllocationPredicateFunctionArgumentSet>
+            </AllocationPredicateFunction>
+          </AllocationPredicate>
+        </Allocation>
+        <AllocatedStudyArmSet>
+          <AllocatedStudyArm>
+            <Name>placeholder</Name>
+            <InitialSize>
+              <SubgroupSet>
+                <Subgroup>
+                  <Name>placeholder</Name>
+                  <Size>placeholder</Size>
+                </Subgroup>
+              </SubgroupSet>
+            </InitialSize>
+            <InterventionSet>
+              <Intervention>placeholder</Intervention>
+            </InterventionSet>
+            <MetricResultSet>
+              <MetricResult/>
+            </MetricResultSet>
+          </AllocatedStudyArm>
+        </AllocatedStudyArmSet>
+        <PlannedActionSet>
+          <PlannedAction>
+            <Name>placeholder</Name>
+            <IntendedTargetPopulation>placeholder</IntendedTargetPopulation>
+            <PlannedActionSpecification>
+              <TypeOfAction>placeholder</TypeOfAction>
+              <TypeSpecificFields/>
+            </PlannedActionSpecification>
+          </PlannedAction>
+        </PlannedActionSet>
+        <MetricSpecificationSet>
+          <MetricSpecification>
+            <Name>placeholder</Name>
+            <Measurement>
+              <MeasurementName>placeholder</MeasurementName>
+              <MeasurementUnits>placeholder</MeasurementUnits>
+            </Measurement>
+            <IntendedTargetPopulationSet>
+              <IntendedTargetPopulation>
+                <Name>placeholder</Name>
+                <Value>placeholder</Value>
+              </IntendedTargetPopulation>
+            </IntendedTargetPopulationSet>
+            <StatisticSpecification>
+              <StatisticName>placeholder</StatisticName>
+              <ModifierSet>
+                <Modifier>placeholder</Modifier>
+              </ModifierSet>
+              <FalsePositiveChance>0.05</FalsePositiveChance>
+            </StatisticSpecification>
+          </MetricSpecification>
+        </MetricSpecificationSet>
+        <MetricResultSet>
+          <MetricResult>
+            <MetricName>placeholder</MetricName>
+            <AllocatedStudyArmSet>
+              <AllocatedStudyArm>
+                <Name>placeholder</Name>
+                <MetricValue>placeholder</MetricValue>
+              </AllocatedStudyArm>
+            </AllocatedStudyArmSet>
+          </MetricResult>
+        </MetricResultSet>
+      </PopulationSpecification>
+      <Conclusion>Conclusions: Community-based clinicians can effectively implement MI when provided training and supervision, and integrating MI techniques in the earliest phases of treatment may have positive effects on retention early in the course of treatment. (Article (Peer-Reviewed), PDF, English, 2006)</Conclusion>
+      <KeywordSet>
+        <Keyword>Behavior therapy</Keyword>
+        <Keyword>CTN primary outcomes</Keyword>
+        <Keyword>Motivational interviewing (MI)</Keyword>
+        <Keyword>Retention - Treatment</Keyword>
+        <Keyword>Drug and Alcohol Dependence (journal) </Keyword>
+      </KeywordSet>
+    </Abstract>
+  </ProjectDescription>
+</Project>

@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<Project>
+  <ProjectTitle>Telephone Enhancement of Long-Term Engagement (TELE) in Continuing Care for Substance Abuse Treatment: A NIDA Clinical Trials Network (CTN) Study.</ProjectTitle>
+  <CitationSet>
+    <Citation>American Journal on Addictions 2007;16(6):495-502 [doi: 10.1080/10550490701641678].</Citation>
+  </CitationSet>
+  <AuthorSet>
+    <Name>Robert L. Hubbard</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+      <Degree>MBA</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Duke University, NC Node</Affiliation>
+    </AffiliationSet>
+    <Name>Jeffrey D. Leimberger</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Duke University, NC Node</Affiliation>
+    </AffiliationSet>
+    <Name>Louise F. Haynes</Name>
+    <DegreeSet>
+      <Degree>MSW</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Lexington/Richmond Alcohol and Drug Abuse Council, SC Node</Affiliation>
+    </AffiliationSet>
+    <Name>Ashwin A. Patkar</Name>
+    <DegreeSet>
+      <Degree>MD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Duke University, NC Node</Affiliation>
+    </AffiliationSet>
+    <Name>John Holter</Name>
+    <DegreeSet>
+      <Degree>MD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Walter B. Jones Alcohol and Drug Abuse Treatment Center, NC Node</Affiliation>
+    </AffiliationSet>
+    <Name>Michael R. Liepman</Name>
+    <DegreeSet>
+      <Degree>MD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>James Gilmore Jr. Treatment Center, GL Node</Affiliation>
+    </AffiliationSet>
+    <Name>Kathi Lucas</Name>
+    <DegreeSet>
+      <Degree>RN</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Duke University, NC Node</Affiliation>
+    </AffiliationSet>
+    <Name>Breque Tyson</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>R.J. Blackley Alcohol and Drug Abuse Treatment Center, NC Node</Affiliation>
+    </AffiliationSet>
+    <Name>Tammy Day</Name>
+    <DegreeSet>
+      <Degree>BSN</Degree>
+      <Degree>RN</Degree>
+      <Degree>CCRA</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Duke University, NC Node</Affiliation>
+    </AffiliationSet>
+    <Name>Elizabeth A. Thorpe</Name>
+    <DegreeSet>
+      <Degree>MS</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>James Gilmore Jr. Treatment Center, GL Node</Affiliation>
+    </AffiliationSet>
+    <Name>Briar Faulkner</Name>
+    <DegreeSet>
+      <Degree>NSW</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Betty Ford Center, CA/AZ Node</Affiliation>
+    </AffiliationSet>
+    <Name>Albert Hasson</Name>
+    <DegreeSet>
+      <Degree>MSW</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Integrated Substance Abuse Programs, CA/AZ Node).</Affiliation>
+    </AffiliationSet>
+  </AuthorSet>
+  <ProjectDescription>
+    <Abstract>
+      <AbstractText>This is the Primary Outcomes Article for CTN-0011. The TELE study (protocol CTN-0011) examined the feasibility and potential efficacy of phone calls to patients after discharge from short-term inpatient and residential substance abuse treatment programs to encourage compliance with continuing care plans. After review of their continuing care plans, 339 patients from four programs were randomized either to receive calls or have no planned contact. Ninety-two percent of patients randomized to receive calls received at least one call. No difference was found between groups in self-reported attendance at one or more outpatient counseling sessions after discharge (p = .89). When program records of all participants were examined, those receiving calls had a greater likelihood of documented attendance (48%) than those not called (37%). Results were not statistically significant (p .003) because of the Hochberg correction for multiple tests.</AbstractText>
+      <PopulationSpecification>
+        <Enrollment>
+          <CriterionSet>
+            <Criterion>
+              <CriterionType>placeholder</CriterionType>
+              <CriterionSpecification>placeholder</CriterionSpecification>
+            </Criterion>
+          </CriterionSet>
+        </Enrollment>
+        <Allocation>
+          <AllocationPredicate>
+            <AllocationPredicateFunction>
+              <AllocationPredicateFunctionSignature>placeholder</AllocationPredicateFunctionSignature>
+              <AllocationPredicateFunctionArgumentSet>
+                <AllocationPredicateFunctionArgument>
+                  <AllocationPredicateFunctionArgumentName>placeholder</AllocationPredicateFunctionArgumentName>
+                  <AllocationPredicateFunctionArgumentValue>placeholder</AllocationPredicateFunctionArgumentValue>
+                </AllocationPredicateFunctionArgument>
+              </AllocationPredicateFunctionArgumentSet>
+            </AllocationPredicateFunction>
+          </AllocationPredicate>
+        </Allocation>
+        <AllocatedStudyArmSet>
+          <AllocatedStudyArm>
+            <Name>placeholder</Name>
+            <InitialSize>
+              <SubgroupSet>
+                <Subgroup>
+                  <Name>placeholder</Name>
+                  <Size>placeholder</Size>
+                </Subgroup>
+              </SubgroupSet>
+            </InitialSize>
+            <InterventionSet>
+              <Intervention>placeholder</Intervention>
+            </InterventionSet>
+            <MetricResultSet>
+              <MetricResult/>
+            </MetricResultSet>
+          </AllocatedStudyArm>
+        </AllocatedStudyArmSet>
+        <PlannedActionSet>
+          <PlannedAction>
+            <Name>placeholder</Name>
+            <IntendedTargetPopulation>placeholder</IntendedTargetPopulation>
+            <PlannedActionSpecification>
+              <TypeOfAction>placeholder</TypeOfAction>
+              <TypeSpecificFields/>
+            </PlannedActionSpecification>
+          </PlannedAction>
+        </PlannedActionSet>
+        <MetricSpecificationSet>
+          <MetricSpecification>
+            <Name>placeholder</Name>
+            <Measurement>
+              <MeasurementName>placeholder</MeasurementName>
+              <MeasurementUnits>placeholder</MeasurementUnits>
+            </Measurement>
+            <IntendedTargetPopulationSet>
+              <IntendedTargetPopulation>
+                <Name>placeholder</Name>
+                <Value>placeholder</Value>
+              </IntendedTargetPopulation>
+            </IntendedTargetPopulationSet>
+            <StatisticSpecification>
+              <StatisticName>placeholder</StatisticName>
+              <ModifierSet>
+                <Modifier>placeholder</Modifier>
+              </ModifierSet>
+              <FalsePositiveChance>0.05</FalsePositiveChance>
+            </StatisticSpecification>
+          </MetricSpecification>
+        </MetricSpecificationSet>
+        <MetricResultSet>
+          <MetricResult>
+            <MetricName>placeholder</MetricName>
+            <AllocatedStudyArmSet>
+              <AllocatedStudyArm>
+                <Name>placeholder</Name>
+                <MetricValue>placeholder</MetricValue>
+              </AllocatedStudyArm>
+            </AllocatedStudyArmSet>
+          </MetricResult>
+        </MetricResultSet>
+      </PopulationSpecification>
+      <Conclusion>Conclusions: While the continuing care phone calls were feasible, the lack of clear evidence of efficacy of the calls suggests the need for further investigation of the role of telephone intervention to encourage compliance and improve outcomes. (Article (Peer-Reviewed), PDF, English, 2007)</Conclusion>
+      <KeywordSet>
+        <Keyword>Aftercare</Keyword>
+        <Keyword>Community health services</Keyword>
+        <Keyword>CTN primary outcomes</Keyword>
+        <Keyword>Telephone Enhancement Procedure (TELE)</Keyword>
+        <Keyword>Retention - Treatment</Keyword>
+        <Keyword>American Journal on Addictions (journal) </Keyword>
+      </KeywordSet>
+    </Abstract>
+  </ProjectDescription>
+</Project>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectTitle>CTN Dissemination Library [no.323]: Buprenorphine Tapering Schedule and Illicit Opioid Use.
+  </ProjectTitle>
+  <CitationSet>
+    <Citation>
+      <CitationType>Current</CitationType>
+      <PMID>19149822</PMID> 
+      <PMCID>PMC3150159</PMCID>
+      <DOI>10.1111/j.1360-0443.2008.02455.x</DOI>
+      <JournalCitation>
+        <JournalName>Addiction</JournalName> 
+        <JournalYear>2009</JournalYear>
+        <JournalIssue>104</JournalIssue>
+        <PageSet>
+          <PageStart>256</PageStart> 
+          <PageEnd>265</PageEnd> 
+        </PageSet>
+      </JournalCitation>
+    </Citation>
+</CitationSet>
+
+<AuthorSet>
+    <Author>
+    	<Name>Walter Ling</Name>
+    	<DegreeSet>
+    	<Degree>MD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+    	<Affiliation>Integrated Substance Abuse Programs, UCLA, PR Node</Affiliation>
+    </AffiliationSet>
+  </Author>
+  <Author>
+  	<Name>Maureen Hillhouse</Name>
+  	<DegreeSet>
+  	<Degree>PhD</Degree>
+  </DegreeSet>
+  <AffiliationSet>
+  	<Affiliation>Integrated Substance Abuse Programs, UCLA, PR Node</Affiliation>
+  </AffiliationSet>
+  </Author>
+  <Author>
+  <Name>Catherine P. Domier<Name>
+  <DegreeSet>
+    <Degree>MA</Degree>
+  </DegreeSet>
+<AffiliationSet>
+	<Affiliation>Integrated Substance Abuse Programs, UCLA, PR Node</Affiliation>
+</AffiliationSet>
+</Author>
+<Author>
+  <Name>Geetha Doraimani</Name>
+<AffiliationSet>
+	<Affiliation>Integrated Substance Abuse Programs, UCLA, PR Node</Affiliation>
+</AffiliationSet>
+</Author>
+<Author>
+<Name>Jeremy Hunter</Name>
+<AffiliationSet>
+	<Affiliation>Integrated Substance Abuse Programs, UCLA, PR Node</Affiliation>
+</AffiliationSet>
+</Author>
+<Author>
+	<Name>Christie Thomas</Name>
+	<DegreeSet>
+	<Degree>MPH</Degree>
+</DegreeSet>
+<AffiliationSet>
+	<Affiliation>Friends Research Institute, Inc., PR Node</Affiliation>
+</AffiliationSet>
+</Author>
+<Author>
+<Name>Jessica Jenkins</Name>
+<AffiliationSet>
+	<Affiliation>Integrated Substance Abuse Programs, UCLA, PR Node</Affiliation>
+</AffiliationSet>
+</Author>
+<Author>
+	<Name>Albert Hasson</Name>
+	<DegreeSet>
+	<Degree>MSW</Degree>
+</DegreeSet>
+<AffiliationSet>
+	<Affiliation>Integrated Substance Abuse Programs, UCLA, PR Node</Affiliation>
+</AffiliationSet>
+</Author>
+<Author>
+<Name>Jeffrey J. Annon</Name>
+<DegreeSet>
+<Degree>MA</Degree>
+</DegreeSet>
+<AffiliationSet>
+	<Affiliation>Integrated Substance Abuse Programs, UCLA, PR Node</Affiliation>
+</AffiliationSet>
+</Author>
+<Author>
+<Name>Andrew J. Saxon</Name>
+<DegreeSet>
+  <Degree>MD</Degree>
+</DegreeSet>
+<AffiliationSet>
+	<Affiliation>Veterans Affairs Puget Sound Health Care System, PN Node</Affiliation>
+</AffiliationSet>
+</Author>
+<Author>
+<Name>Jeffrey A. Selzer</Name>
+<DegreeSet> 
+  <Degree>MD</Degree>
+</DegreeSet>
+<AffiliationSet>
+	<Affiliation>North Shore Long Island Jewish Health System, LI Node</Affiliation>
+</AffiliationSet>
+</Author>
+<Author>
+	<Name>Joshua Boverman</Name>
+	<DegreeSet>
+	<Degree>MD</Degree>
+</DegreeSet>
+<AffiliationSet>
+	<Affiliation>Oregon Health and Science University, OR/HI Node</Affiliation>
+</AffiliationSet>
+</Author>
+<Author>
+	<Name>Richard Bilangi</Name>
+	<DegreeSet>
+	<Degree>MD</Degree>
+</DegreeSet>
+<AffiliationSet>
+<Affiliation>Connecticut Counseling Centers, Inc., NE Node</Affiliation>
+</AffiliationSet>
+</Author>
+  </AuthorSet>
+  <ProjectDescription>
+    <Abstract>
+      <Background>This is the Primary Outcomes Article for CTN-0003</Background> 
+       The purpose of CTN-0003 was to compare effects of a short or long taper schedule after buprenorphine stabilization on participant outcomes as measured by opioid-free urine tests at the end of each taper period. This multi-site study sponsored by NIDA's National Drug Abuse Treatment Clinical Trials Network was conducted from 2003-2005 to compare two taper conditions (7 days and 28 days). Data were collected at weekly clinic visits through the end of the taper periods, and at 1-month and 3-month post-taper follow-up visits. The intervention involved non-blinded dosing with Suboxone during the 1-month stabilization phase, including three weeks of flexible dosing as determined appropriate by the study physicians. A fixed dose was required for the final week before beginning the taper phase. Measurements included the percentage of participants in each taper group providing urine samples free of illicit opioids at the end of the taper and at follow-up. At the end of the taper, 44% of the 7-day taper group (n=255) provided opioid-free urine speciments compared to 30% of the 28-day taper group (N=261; p=0.0007). There were no differences at the 1- and 3-month follow-up (7 day = 18% and 12%; 28 day = 18% and 13%, for 1 and 3 months, respectively).
+       <Design>
+        <PopulationSpecification>
+          <CriterionSet>
+            <Criterion>
+              <CriterionType>Inclusion</CriterionType>
+              <CriterionSpecfication>X</CriterionSpecfication>
+            </Criterion>
+          </CriterionSet>
+          <AllocationSet>
+            <Allocation>
+              <AllocationType>Unknown</AllocationType>
+              <AllocationRatioSet>
+                <AllocationRatio>
+                  <StudyArmSet>
+                    <StudyArm>
+                      <Name>Short Taper Schedule</Name>
+                      <Ratio>Unknown</Ratio>
+                    </StudyArm>
+                    <StudyArm>
+                      <Name>Long Taper Schedule</Name>
+                      <Ratio>Unknown</Ratio>
+                    </StudyArm>
+                  </StudyArmSet>
+                </AllocationRatio>
+              </AllocationRatioSet>
+          <AllocatedStudyArmSet>
+            <StudyArm>
+              <Name>Short Taper Schedule</Name>
+              <InitialSize>
+                <SubgroupSet>
+                  <Subgroup>
+                    <Name>Short Taper Schedule</Name>
+                  </Subgroup>
+                </SubgroupSet>
+              </InitialSize>
+              <InterventionSet>
+                <Intervention>
+                <Name>Short Buprenorphine Taper</Name>
+               </Intervention>
+               </InterventionSet>
+             </StudyArm>
+           </AllocatedStudyArmSet>
+         </Allocation>
+       </AllocationSet>
+     </PopulationSpecification>
+     
+<InterventionSpecificationSet>
+  <InterventionSpecification>
+    <Name>Short Taper</Name>
+    <InterventionType>Administration of Drug</InterventionType>
+    <DrugAdministrationScheduleSet>
+      <DrugAdministrationSchedule>
+        <Substance>Buprenorphine</Substance>
+        <DurationSpecification>
+            <DurationSpecificationValue>7</DurationSpecificationValue>
+            <DurationSpecificationUnit>Days</DurationSpecificationUnit>
+        </DurationSpecification>
+      </DrugAdministrationSchedule>
+     </DrugAdministrationScheduleSet>
+     <TargetStudyArmSet>
+      <TargetStudyArm>
+      </TargetStudyArm>
+    </TargetStudyArmSet>
+     </InterventionSpecification>
+     <InterventionSpecification>
+      <Name>Long Taper</Name>
+      <InterventionType>Administration of Drug</InterventionType>
+      <DrugAdministrationScheduleSet>
+        <DrugAdministrationSchedule>
+            <Substance>Buprenorphine</Substance>
+            <DurationSpecification>
+              <DurationSpecificationValue>28</DurationSpecificationValue>
+              <DurationSpecificationUnit>Days</DurationSpecificationUnit>
+            </DurationSpecification>
+        </DrugAdministrationSchedule>
+      </DrugAdministrationScheduleSet> 
+    </InterventionSpecification>
+  </InterventionSpecificationSet>
+
+  <ComparisonSpecificationSet>
+      <ComparisonSpecification>
+    <Name>One Month Follow-up</Name>
+    <ComparisonType>Analysis of urine for compound</ComparisonType>
+    <ComparisonMeasure>Concentration of compound in urine</ComparisonMeasure>        
+    <StatisticalTestToDetermineSigniicance>X</StatisticalTestToDetermineSigniicance>
+  </ComparisonSpecification>
+    <ComparisonSpecification>
+    <Name>Three Month Follow-up</Name>
+    <ComparisonType>Analysis of urine for compound</ComparisonType>
+    <ComparisonMeasure>Concentration of compound in urine</ComparisonMeasure>        
+    <StatisticalTestToDetermineSigniicance>X</StatisticalTestToDetermineSigniicance>
+  </ComparisonSpecification>
+  </ComparisonSpecificationSet>
+
+<OutcomeSpecificationSet>
+  <OutcomeSpecification>
+    <Name>One-Month Follow-Up</Name>
+    <OutcomeValueSpecificationSet>
+      <OutcomeValueSpecification>
+        <StudyArmSet>
+          <StudyArm>
+            <Name>Short Term Taper</Name>
+            <OutcomeValue>255</OutcomeValue>
+          </StudyArm>
+          <StudyArm>
+            <Name>Long-Term Taper</Name>
+            <OutcomeValue>261</OutcomeValue>
+        </StudyArm>
+        </StudyArmSet>
+      </OutcomeValueSpecification>
+    </OutcomeValueSpecificationSet>
+  </OutcomeSpecification>
+   <OutcomeSpecification>
+    <Name>Three-Month Follow-Up</Name>
+    <OutcomeValueSpecificationSet>
+      <OutcomeValueSpecification>
+        <StudyArmSet>
+          <StudyArm>
+            <Name>Short Term Taper</Name>
+            <OutcomeValue>255</OutcomeValue>
+          </StudyArm>
+          <StudyArm>
+            <Name>Long-Term Taper</Name>
+            <OutcomeValue>261</OutcomeValue>
+        </StudyArm>
+        </StudyArmSet>
+      </OutcomeValueSpecification>
+    </OutcomeValueSpecificationSet>
+
+    <Conclusion>For individuals terminating buprenorphine pharmacotherapy for opioid dependence, there appears to be no advantage in prolonging the duration of taper. 
+    </Conclusion>
+    <KeywordSet>
+      <Keyword>Buprenorphine/Naloxone</Keyword>
+      <Keyword>Community health services</Keyword>
+      <Keyword>CTN primary outcomes</Keyword>
+      <Keyword>Opioid dependence</Keyword>
+      <Keyword>Pharmacological therapy</Keyword>
+      <Keyword>Suboxone</Keyword>
+      <Keyword>Taper schedules</Keyword>
+    </KeywordSet>
+  
+    <ParticipatingNodeSet>
+    <ParticipatingNode>
+      <Name>Pacific Region</Name>
+      <Role>Lead</Role>
+    </ParticipatingNode>
+    <ParticipatingNode>
+      <Name>Greater New York (formerly Long Island and New York)</Name>
+      <Role>Participant</Role>
+    </ParticipatingNode>
+  <ParticipatingNode>
+  <Name> New England Consortium (formerly New England)</Name>
+  <Role>Participant</Role>
+  </ParticipatingNode>
+  <ParticipatingNode>
+    <Name>North Carolina</Name>
+    <Role>Participant</Role>
+  </ParticipatingNode>
+  <ParticipatingNode>
+    <Name>Pacific Northwest</Name>
+    <Role>Participant</Role>
+  </ParticipatingNode> 
+ <ParticipatingNode>
+  <Name>Rocky Mountain Regional</Name>
+  <Role>Participant</Role>
+ </ParticipatingNode>
+ <ParticipatingNode>
+  <Name>Western States (formerly Oregon/Hawaii)</Name>
+  <Role>Participant</Role>
+</ParticipatingNode> 
+</Project>

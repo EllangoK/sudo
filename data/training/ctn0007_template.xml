@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<Project>
+  <ProjectTitle>Effects of Lower-Cost Incentives on Stimulant Abstinence in Methadone Maintenance Treatment: A National Drug Abuse Treatment Clinical Trials Network Study.</ProjectTitle>
+  <CitationSet>
+    <Citation>Archives of General Psychiatry 2006;63:201-208</Citation>
+  </CitationSet>
+  <AuthorSet>
+    <Name>Jessica M. Peirce</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Johns Hopkins University School of Medicine, MA Node</Affiliation>
+    </AffiliationSet>
+    <Name>Nancy M. Petry</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>University of Connecticut School of Medicine</Affiliation>
+    </AffiliationSet>
+    <Name>Maxine L. Stitzer</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Johns Hopkins University School of Medicine, MA Node</Affiliation>
+    </AffiliationSet>
+    <Name>Jack D. Blaine</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Biopharmaceutical Research Consultants, Inc.</Affiliation>
+    </AffiliationSet>
+    <Name>Scott Kellogg</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Kreek Lab, The Rockefeller University, NY Node</Affiliation>
+    </AffiliationSet>
+    <Name>Frank Satterfield</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>Glenwood Life Counseling Center, MA Node</Affiliation>
+    </AffiliationSet>
+    <Name>Marion Schwartz</Name>
+    <DegreeSet>
+      <Degree>MSW</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>New York University School of Medicine, NY Node</Affiliation>
+    </AffiliationSet>
+    <Name>Joseph Krasnansky</Name>
+    <DegreeSet>
+      <Degree>CSW</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Lower Eastside Service Center, NY Node</Affiliation>
+    </AffiliationSet>
+    <Name>Eileen Pencer</Name>
+    <DegreeSet>
+      <Degree>MSW</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>New York University, NY Node</Affiliation>
+    </AffiliationSet>
+    <Name>Lolita Silva-Vazquez</Name>
+    <DegreeSet>
+      <Degree>MA</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Greenwich House, NY Node</Affiliation>
+    </AffiliationSet>
+    <Name>Kimberly C. Kirby</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>University of Pennsylvania, DV Node</Affiliation>
+    </AffiliationSet>
+    <Name>Charlotte Royer-Malvestuto</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>University of Pennsylvania, DV Node</Affiliation>
+    </AffiliationSet>
+    <Name>John M. Roll</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>University of California, Los Angeles, PR Node</Affiliation>
+    </AffiliationSet>
+    <Name>Allan J. Cohen</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>University of California, Los Angeles, PR Node</Affiliation>
+    </AffiliationSet>
+    <Name>Marc Copersino</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>National Institute on Drug Abuse</Affiliation>
+    </AffiliationSet>
+    <Name>Ken B. Kolodner</Name>
+    <DegreeSet>
+      <Degree>ScD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Johns Hopkins University School of Medicine, MA Node).</Affiliation>
+    </AffiliationSet>
+  </AuthorSet>
+  <ProjectDescription>
+    <Abstract>
+      <AbstractText>This is the Primary Outcomes Article for CTN-0007. Contingency management interventions that provide tangible incentives based on objective indicators of drug abstinence have improved treatment outcomes of substance abusers, but have not been widely implemented in community drug abuse treatment sessions. The goal of this study was to compare outcomes achieved when a lower-cost prize-based contingency management treatment is added to usual care in community methadone hydrochloride maintenance treatment settings. Six community-based methadone maintenance drug abuse treatment clinics in locations across the United States were selected for participation in this study and a total of 388 stimulant-abusing patients were ultimately enrolled. Participants were expected to provide urine samples at twice-weekly visits throughout the 12-week study. Those participants submitting stimulant- and alcohol-negative samples earned draws for a chance to win prizes. The number of draws earned increased with continuous abstinence time. At the end of twelve weeks, study data showed that submission of stimulant- and alcohol-negative samples was twice as likely for incentive as for usual care group participants (odds ratio: 1.98). Achieving 4 or more, 8 or more, and 12 weeks of continuous abstinence was approximately 3, 9, and 11 times more likely, respectively, for incentive vs. usual care. Groups did not differ on study retention or counseling attendance. The average cost of prizes was $120 per participant.</AbstractText>
+      <PopulationSpecification>
+        <Enrollment>
+          <CriterionSet>
+            <Criterion>
+              <CriterionType>placeholder</CriterionType>
+              <CriterionSpecification>placeholder</CriterionSpecification>
+            </Criterion>
+          </CriterionSet>
+        </Enrollment>
+        <Allocation>
+          <AllocationPredicate>
+            <AllocationPredicateFunction>
+              <AllocationPredicateFunctionSignature>placeholder</AllocationPredicateFunctionSignature>
+              <AllocationPredicateFunctionArgumentSet>
+                <AllocationPredicateFunctionArgument>
+                  <AllocationPredicateFunctionArgumentName>placeholder</AllocationPredicateFunctionArgumentName>
+                  <AllocationPredicateFunctionArgumentValue>placeholder</AllocationPredicateFunctionArgumentValue>
+                </AllocationPredicateFunctionArgument>
+              </AllocationPredicateFunctionArgumentSet>
+            </AllocationPredicateFunction>
+          </AllocationPredicate>
+        </Allocation>
+        <AllocatedStudyArmSet>
+          <AllocatedStudyArm>
+            <Name>placeholder</Name>
+            <InitialSize>
+              <SubgroupSet>
+                <Subgroup>
+                  <Name>placeholder</Name>
+                  <Size>placeholder</Size>
+                </Subgroup>
+              </SubgroupSet>
+            </InitialSize>
+            <InterventionSet>
+              <Intervention>placeholder</Intervention>
+            </InterventionSet>
+            <MetricResultSet>
+              <MetricResult/>
+            </MetricResultSet>
+          </AllocatedStudyArm>
+        </AllocatedStudyArmSet>
+        <PlannedActionSet>
+          <PlannedAction>
+            <Name>placeholder</Name>
+            <IntendedTargetPopulation>placeholder</IntendedTargetPopulation>
+            <PlannedActionSpecification>
+              <TypeOfAction>placeholder</TypeOfAction>
+              <TypeSpecificFields/>
+            </PlannedActionSpecification>
+          </PlannedAction>
+        </PlannedActionSet>
+        <MetricSpecificationSet>
+          <MetricSpecification>
+            <Name>placeholder</Name>
+            <Measurement>
+              <MeasurementName>placeholder</MeasurementName>
+              <MeasurementUnits>placeholder</MeasurementUnits>
+            </Measurement>
+            <IntendedTargetPopulationSet>
+              <IntendedTargetPopulation>
+                <Name>placeholder</Name>
+                <Value>placeholder</Value>
+              </IntendedTargetPopulation>
+            </IntendedTargetPopulationSet>
+            <StatisticSpecification>
+              <StatisticName>placeholder</StatisticName>
+              <ModifierSet>
+                <Modifier>placeholder</Modifier>
+              </ModifierSet>
+              <FalsePositiveChance>0.05</FalsePositiveChance>
+            </StatisticSpecification>
+          </MetricSpecification>
+        </MetricSpecificationSet>
+        <MetricResultSet>
+          <MetricResult>
+            <MetricName>placeholder</MetricName>
+            <AllocatedStudyArmSet>
+              <AllocatedStudyArm>
+                <Name>placeholder</Name>
+                <MetricValue>placeholder</MetricValue>
+              </AllocatedStudyArm>
+            </AllocatedStudyArmSet>
+          </MetricResult>
+        </MetricResultSet>
+      </PopulationSpecification>
+      <Conclusion>Conclusions: This study has demonstrated that an abstinence incentive approach that paid $120 in prizes per participant effectively increased stimulant abstinence in community-based methadone maintenance treatment clinics. (Article (Peer-Reviewed), PDF, English, 2006)</Conclusion>
+      <KeywordSet>
+        <Keyword>Alcohol</Keyword>
+        <Keyword>Behavior therapy</Keyword>
+        <Keyword>Contingency management (CM)</Keyword>
+        <Keyword>CTN primary outcomes</Keyword>
+        <Keyword>Methadone maintenance</Keyword>
+        <Keyword>MIEDAR</Keyword>
+        <Keyword>Motivational incentives</Keyword>
+        <Keyword>Retention - Treatment</Keyword>
+        <Keyword>Stimulant abuse</Keyword>
+        <Keyword>Archives of General Psychiatry (journal) </Keyword>
+      </KeywordSet>
+    </Abstract>
+  </ProjectDescription>
+</Project>
