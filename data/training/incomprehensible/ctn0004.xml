@@ -8,7 +8,7 @@
       <DOI>10.1037/0022-006X.75.4.556</DOI>   
       <PMCID>Placeholder</PMCID> 
       <JournalCitation>
-          <JournalName>ournal of Consulting and Clinical Psychology</JournalName>
+          <JournalName>Journal of Consulting and Clinical Psychology</JournalName>
           <JournalYear>2007</JournalYear>
           <JournalIssue>75</JournalIssue>
           <JournalNumber>4</JournalNumber>
@@ -123,7 +123,13 @@
               </SubgroupSet>
             </InitialSize>
             <InterventionSet>
-              <Intervention>placeholder</Intervention>
+              <Intervention> 
+                <Name>Counseling As Usual</Name>
+                <Duration>
+                  <Value>4</Value>
+                  <Unit>week</Unit>
+                </Duration>
+              </Intervention>
             </InterventionSet>
             <MetricResultSet>
               <MetricResult/>
@@ -140,7 +146,13 @@
               </SubgroupSet>
             </InitialSize>
             <InterventionSet>
-              <Intervention>placeholder</Intervention>
+              <Intervention>
+                <Name>Motivational Enhancement Therapy</Name>
+                <Duration>
+                  <Value>4</Value>
+                  <Unit>week</Unit>
+                </Duration>
+            </Intervention>
             </InterventionSet>
             <MetricResultSet>
               <MetricResult/>

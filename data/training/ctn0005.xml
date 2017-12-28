@@ -105,8 +105,12 @@
         <Enrollment>
           <CriterionSet>
             <Criterion>
-              <CriterionType>placeholder</CriterionType>
-              <CriterionSpecification>placeholder</CriterionSpecification>
+              <CriterionType>Inclusion</CriterionType>
+              <CriterionSpecification>Substance User</CriterionSpecification>
+            </Criterion>
+            <Criterion>
+              <CriterionType>Inclusion</CriterionType>
+              <CriterionSpecification>Entering Outpatient Treatment</CriterionSpecification>
             </Criterion>
           </CriterionSet>
         </Enrollment>
