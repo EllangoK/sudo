@@ -9,9 +9,7 @@ Sudo builds off the PICO (**P**opulation **I**intervention **C**omparison **O**u
 This element contains those elements that specify the group of people on whom the study was performed. We divide PopulationSpecification into Enrollment and Allocation. This division reflects the CONSORT strucure for reporting clinical trials. It also respects Basic Formal Ontology. An Enrollment is a Partition (generic dependent continuant) between those included in the study and those not included in the study. An Allocation is a Partition between those included in one part of the study but not another. Neither parition is static. A person who is enrolled may leave the study. In a cross-over study a subject allocated to one arm at one point in time may be allocated to another arm at a second point in time. 
 
 #### Enrollment
-An Enrollment is a partition among the general population into those included in the study when the study begins and those not included. We divide Enrollment into two mutually exclusive categories, InclusionCriterionSet and ExclusionCriterionSet. 
-1. The InclusionCriterionSet contains all InclusionCriteria. Each InclusionCriterion is a characteristic of a subject that if present 
-1. The analogous ExclusionCriterionSet
+An Enrollment is a partition among the general population into those included in the study when the study begins and those not included. Enrollment is specified by a CriterionSet. Each member of CriteriaSet specifies a boolean function, which we call a Criterion. There are two types of Criterion functions, inclusion and exclusion. If a Criterion function of type inclusion is true, then the subject that provided the argument to the Criterion function is included in the study. If a Criterion function of type exclusion is true, the opposite happens. 
 
 #### AllocationSet
 In contrast to Enrollment, the immediate descendant of PopulationSpecification is not Allocation but AllocationSet. (Future versions of sudo may redefine Enrollment to keep parallelism.) An Allocation is a partition among the study population so that each group defined by this partition recieves exactly one intervention at each point in time. 
