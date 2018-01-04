@@ -117,19 +117,30 @@
         <Allocation>
           <AllocationPredicate>
             <AllocationPredicateFunction>
-              <AllocationPredicateFunctionSignature>placeholder</AllocationPredicateFunctionSignature>
-              <AllocationPredicateFunctionArgumentSet>
-                <AllocationPredicateFunctionArgument>
-                  <AllocationPredicateFunctionArgumentName>placeholder</AllocationPredicateFunctionArgumentName>
-                  <AllocationPredicateFunctionArgumentValue>placeholder</AllocationPredicateFunctionArgumentValue>
-                </AllocationPredicateFunctionArgument>
-              </AllocationPredicateFunctionArgumentSet>
+              <AllocationPredicateFunctionSignature>rand</AllocationPredicateFunctionSignature>
             </AllocationPredicateFunction>
           </AllocationPredicate>
         </Allocation>
         <AllocatedStudyArmSet>
           <AllocatedStudyArm>
-            <Name>placeholder</Name>
+            <Name>Standard Intake/Evaluation Session</Name>
+            <InitialSize>
+              <SubgroupSet>
+                <Subgroup>
+                  <Name>placeholder</Name>
+                  <Size>placeholder</Size>
+                </Subgroup>
+              </SubgroupSet>
+            </InitialSize>
+            <InterventionSet>
+              <Intervention>placeholder</Intervention>
+            </InterventionSet>
+            <MetricResultSet>
+              <MetricResult/>
+            </MetricResultSet>
+          </AllocatedStudyArm>
+          <AllocatedStudyArm>
+            <Name>Standard Intake/Evaluation Session AND Motivational Interviewing</Name>
             <InitialSize>
               <SubgroupSet>
                 <Subgroup>
@@ -148,7 +159,7 @@
         </AllocatedStudyArmSet>
         <PlannedActionSet>
           <PlannedAction>
-            <Name>placeholder</Name>
+            <Name>Standard Intake/Evaluation</Name>
             <IntendedTargetPopulation>placeholder</IntendedTargetPopulation>
             <PlannedActionSpecification>
               <TypeOfAction>placeholder</TypeOfAction>

@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<Project>
+  <ProjectTitle>Effect of Prize-Based Incentives on Outcomes in Stimulant Abusers in Outpatient Psychosocial Treatment Programs.</ProjectTitle>
+  <CitationSet>
+    <Citation>Archives of General Psychiatry 2005;62:1148-1156</Citation>
+  </CitationSet>
+  <AuthorSet>
+    <Name>Nancy M. Petry</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>University of Connecticut School of Medicine</Affiliation>
+    </AffiliationSet>
+    <Name>Jessica M. Peirce</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Johns Hopkins University School of Medicine, MA Node</Affiliation>
+    </AffiliationSet>
+    <Name>Maxine L. Stitzer</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Johns Hopkins University School of Medicine, MA Node</Affiliation>
+    </AffiliationSet>
+    <Name>Jack D. Blaine</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Biopharmaceutical Research Consultants, Inc.</Affiliation>
+    </AffiliationSet>
+    <Name>John M. Roll</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Washington State University, Tacoma</Affiliation>
+    </AffiliationSet>
+    <Name>Allan J. Cohen</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>University of California, Los Angeles</Affiliation>
+    </AffiliationSet>
+    <Name>Jeanne L. Obert</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>University of California, Los Angeles</Affiliation>
+    </AffiliationSet>
+    <Name>Therese K. Killeen</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>University of South Carolina, SC Node</Affiliation>
+    </AffiliationSet>
+    <Name>Michael E. Saladin</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>University of South Carolina, SC Node</Affiliation>
+    </AffiliationSet>
+    <Name>Mark Cowell</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>University of South Carolina, SC Node</Affiliation>
+    </AffiliationSet>
+    <Name>Kimberly C. Kirby</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>University of Pennsylvania, DV Node</Affiliation>
+    </AffiliationSet>
+    <Name>Robert C. Sterling</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>University of Pennsylvania, DV Node</Affiliation>
+    </AffiliationSet>
+    <Name>Charlotte Royer-Malvestuto</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>University of Pennsylvania, DV Node</Affiliation>
+    </AffiliationSet>
+    <Name>John A. Hamilton</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>Yale University, NE Node</Affiliation>
+    </AffiliationSet>
+    <Name>Robert E. Booth</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>University of Colorado, RM Node</Affiliation>
+    </AffiliationSet>
+    <Name>Marilyn Macdonald</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>University of Colorado, RM Node</Affiliation>
+    </AffiliationSet>
+    <Name>Marc Liebert</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>University of Colorado, RM Node</Affiliation>
+    </AffiliationSet>
+    <Name>Linda Rader</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>University of Colorado, RM Node</Affiliation>
+    </AffiliationSet>
+    <Name>Raynetta Burns</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>University of Colorado, RM Node</Affiliation>
+    </AffiliationSet>
+    <Name>Joan DiMaria</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>University of Colorado, RM Node</Affiliation>
+    </AffiliationSet>
+    <Name>Marc L. Copersino</Name>
+    <DegreeSet>
+      <Degree>PhD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>National Institute on Drug Abuse</Affiliation>
+    </AffiliationSet>
+    <Name>Patricia Quinn Stabile</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>Johns Hopkins University School of Medicine, MA Node</Affiliation>
+    </AffiliationSet>
+    <Name>Ken B. Kolodner</Name>
+    <DegreeSet>
+      <Degree>ScD</Degree>
+    </DegreeSet>
+    <AffiliationSet>
+      <Affiliation>Johns Hopkins University School of Medicine, MA Node</Affiliation>
+    </AffiliationSet>
+    <Name>Rui Li</Name>
+    <DegreeSet/>
+    <AffiliationSet>
+      <Affiliation>Johns Hopkins University School of Medicine, MA Node).</Affiliation>
+    </AffiliationSet>
+  </AuthorSet>
+  <ProjectDescription>
+    <Abstract>
+      <Objective>The objective of this study was to evaluate the efficacy of an abstinence-based contingency management intervention as an addition to usual care in community treatment settings.
+      </Objective> 
+
+       A total of 415 cocaine or methamphetamine users beginning outpatient substance abuse treatment were randomly assigned to usual care or usual care plus abstinence-based incentives for 12 weeks. All participants received standard care, and those assigned to the abstinence-based incentive condition also earned chances to win prizes for submitting substance-free urine samples; the chances of winning prizes increased with continuous time abstinent. Participants assigned to the abstinence-based incentive condition remained in treatment for a mean +/- SD of 8.0 +/- 4.2 weeks and attended a mean +/- SD of 19.2 +/- 16.8 counseling sessions compared with 6.9 +/- 4.4 weeks and 15.7 +/- 14.4 sessions for those assigned to the usual care condition (P.02 for all). Participants in the abstinence-based incentive condition also submitted significantly more stimulant- and alcohol-free samples (P.001). The abstinence-based incentive group was significantly more likely to achieve 4, 8, and 12 weeks of continuous abstinence than the control group, with odds ratios of 2.5, 2.7, and 4.5, respectively. However, the percentage of positive samples submitted was low overall and did not differ between conditions.
+      <AbstractText>This is the Primary Outcomes Article for CTN-0006. Contingency management interventions that provide tangible incentives based on objective indicators of drug abstinence are efficacious in improving outcomes in substance abusers, but these treatments have rarely been implemented in community-based settings. The objective of this study was to evaluate the efficacy of an abstinence-based contingency management intervention as an addition to usual care in community treatment settings. A total of 415 cocaine or methamphetamine users beginning outpatient substance abuse treatment were randomly assigned to usual care or usual care plus abstinence-based incentives for 12 weeks. All participants received standard care, and those assigned to the abstinence-based incentive condition also earned chances to win prizes for submitting substance-free urine samples; the chances of winning prizes increased with continuous time abstinent. Participants assigned to the abstinence-based incentive condition remained in treatment for a mean +/- SD of 8.0 +/- 4.2 weeks and attended a mean +/- SD of 19.2 +/- 16.8 counseling sessions compared with 6.9 +/- 4.4 weeks and 15.7 +/- 14.4 sessions for those assigned to the usual care condition (P.02 for all). Participants in the abstinence-based incentive condition also submitted significantly more stimulant- and alcohol-free samples (P.001). The abstinence-based incentive group was significantly more likely to achieve 4, 8, and 12 weeks of continuous abstinence than the control group, with odds ratios of 2.5, 2.7, and 4.5, respectively. However, the percentage of positive samples submitted was low overall and did not differ between conditions.</AbstractText>
+      <PopulationSpecification>
+        <Enrollment>
+          <CriterionSet>
+            <Criterion>
+              <CriterionType>Inclusion</CriterionType>
+              <CriterionSpecification>User of methamphetamine</CriterionSpecification>
+            </Criterion>
+            <Criterion>
+              <CriterionType>Inclusion</CriterionType>
+              <CriterionSpecification>User of cocaine</CriterionSpecification>
+            </Criterion>
+          </CriterionSet>
+        </Enrollment>
+        <Allocation>
+          <AllocationPredicate>
+            <AllocationPredicateFunction>
+              <AllocationPredicateFunctionSignature>rand</AllocationPredicateFunctionSignature>
+            </AllocationPredicateFunction>
+          </AllocationPredicate>
+        </Allocation>
+        <AllocatedStudyArmSet>
+          <AllocatedStudyArm>
+            <Name>Usual Care</Name>
+            <InitialSize>
+              <SubgroupSet>
+                <Subgroup>
+                  <Name>placeholder</Name>
+                  <Size>placeholder</Size>
+                </Subgroup>
+              </SubgroupSet>
+            </InitialSize>
+            <InterventionSet>
+              <Intervention>placeholder</Intervention>
+            </InterventionSet>
+            <MetricResultSet>
+              <MetricResult/>
+            </MetricResultSet>
+          </AllocatedStudyArm>
+          <AllocatedStudyArm>
+            <Name>Usual Care AND Prizes</Name>
+            <InitialSize>
+              <SubgroupSet>
+                <Subgroup>
+                  <Name>placeholder</Name>
+                  <Size>placeholder</Size>
+                </Subgroup>
+              </SubgroupSet>
+            </InitialSize>
+            <InterventionSet>
+              <Intervention>placeholder</Intervention>
+            </InterventionSet>
+            <MetricResultSet>
+              <MetricResult/>
+            </MetricResultSet>
+          </AllocatedStudyArm>
+        </AllocatedStudyArmSet>
+        <PlannedActionSet>
+          <PlannedAction>
+            <Name>Usual Care<Name>
+            <IntendedTargetPopulationSet>
+              <IntendedTargetPopulation>Usual Care</IntendedTargetPopulation>
+              <IntendedTargetPopulation>Usual Care AND Prizes</IntendedTargetPopulation>
+            </IntendedTargetPopulationSet>
+            <PlannedActionSpecification>
+              <TypeOfAction>Usual Care</TypeOfAction>
+              <TypeSpecificFields/>
+            </PlannedActionSpecification>
+          </PlannedAction>
+        </PlannedActionSet>
+        <MetricSpecificationSet>
+          <MetricSpecification>
+            <Name>Weeks in Treatment</Name>
+            <Measurement>
+              <MeasurementName>Duration</MeasurementName>
+              <MeasurementUnits>Weeks</MeasurementUnits>
+            </Measurement>
+            <IntendedTargetPopulationSet>
+              <IntendedTargetPopulation>
+                <Name>Usual Care</Name>
+                <Value>placeholder</Value>
+              </IntendedTargetPopulation>
+              <IntendedTargetPopulation>
+                <Name>Usual Care AND Prizes</Name>
+                <Value>placeholder</Value>
+              </IntendedTargetPopulation>
+            </IntendedTargetPopulationSet>
+            <StatisticSpecification>
+              <StatisticName>placeholder</StatisticName>
+              <ModifierSet>
+                <Modifier>placeholder</Modifier>
+              </ModifierSet>
+              <FalsePositiveChance>0.05</FalsePositiveChance>
+            </StatisticSpecification>
+          </MetricSpecification>
+        </MetricSpecificationSet>
+        <MetricResultSet>
+          <MetricResult>
+            <MetricName>placeholder</MetricName>
+            <AllocatedStudyArmSet>
+              <AllocatedStudyArm>
+                <Name>placeholder</Name>
+                <MetricValue>placeholder</MetricValue>
+              </AllocatedStudyArm>
+            </AllocatedStudyArmSet>
+          </MetricResult>
+        </MetricResultSet>
+      </PopulationSpecification>
+      <Conclusion>Conclusions: The abstinence-based incentive procedure, which provided a mean of $203 in prizes per participant, was efficacious in improving retention and associated abstinence outcomes. (Article (Peer-Reviewed), PDF, English, 2005)</Conclusion>
+      <KeywordSet>
+        <Keyword>Alcohol</Keyword>
+        <Keyword>Behavior therapy</Keyword>
+        <Keyword>Contingency management (CM)</Keyword>
+        <Keyword>CTN primary outcomes</Keyword>
+        <Keyword>MIEDAR</Keyword>
+        <Keyword>Motivational incentives</Keyword>
+        <Keyword>Retention - Treatment</Keyword>
+        <Keyword>Stimulant abuse</Keyword>
+        <Keyword>Archives of General Psychiatry (journal) </Keyword>
+      </KeywordSet>
+    </Abstract>
+  </ProjectDescription>
+</Project>
