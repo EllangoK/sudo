@@ -123,7 +123,10 @@
 
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasKeyword -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasKeyword"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasKeyword">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <rdfs:label xml:lang="en">has keyword</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -181,6 +184,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#has_objective_specificatiokn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#has_objective_specificatiokn">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <rdfs:label xml:lang="en">has objective specification</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#has_title -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#has_title">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <rdfs:label xml:lang="en">has title</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#title_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#title_of">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+        <rdfs:label xml:lang="en">title of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -201,8 +231,7 @@
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasDOI -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasDOI">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000013"/>
         <rdfs:label>has document object identifier (doi)</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -235,7 +264,6 @@
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasPMCID -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasPMCID">
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>has PubMed Central ID</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -252,6 +280,15 @@
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasStartPage -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasStartPage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#has_content -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#has_content">
+        <rdfs:comment>has content</rdfs:comment>
+        <rdfs:label>has content</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -532,6 +569,23 @@
     
 
 
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#clonidine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#clonidine">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000629"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#compare_two_substances -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#compare_two_substances">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <rdfs:label xml:lang="en">compare two substances</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#comparison_specification -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#comparison_specification">
@@ -549,11 +603,35 @@
     
 
 
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#naltrexone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#naltrexone">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000629"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#opiate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#opiate">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000629"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#outcome_specification -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#outcome_specification">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
         <rdfs:label>outcome specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#suboxone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#suboxone">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000629"/>
     </owl:Class>
     
 
@@ -627,16 +705,77 @@
     
 
 
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#Suboxone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#Suboxone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#suboxone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#clonidine_hydrochloride -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#clonidine_hydrochloride">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#clonidine"/>
+        <rdfs:label xml:lang="en">clonidine hydrochloride</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#compare_suboxone_to_clonidine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#compare_suboxone_to_clonidine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#compare_two_substances"/>
+        <obo:IAO_0000142 rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#Suboxone"/>
+        <obo:IAO_0000142 rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#clonidine_hydrochloride"/>
+        <rdfs:label xml:lang="en">compare suboxone to clonidine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#naltrexone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#naltrexone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#naltrexone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#opiate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#opiate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#opiate"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#A_Multi-Center_Randomized_Trial_of_Buprenorphine-Naloxone_Versus_Clonidine_for_Opioid_Detoxification:_Findings_from_the_National_Institute_on_Drug_Abuse_Clinical_Trials_Network -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#A_Multi-Center_Randomized_Trial_of_Buprenorphine-Naloxone_Versus_Clonidine_for_Opioid_Detoxification:_Findings_from_the_National_Institute_on_Drug_Abuse_Clinical_Trials_Network">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000305"/>
+        <title_of rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#A_Multi-Center_Randomized_Trial_of_Buprenorphine-Naloxone_Versus_Clonidine_for_Opioid_Detoxification:NIDA_Dissemination_Artifact:NIDA_Dissemination_Artifact_87"/>
+        <has_content>A Multi-Center Randomized Trial of Buprenorphine-Naloxone Versus Clonidine for Opioid Detoxification: Findings from the National Institute on Drug Abuse Clinical Trials Network</has_content>
+        <rdfs:label xml:lang="en">A Multi-Center Randomized Trial of Buprenorphine-Naloxone Versus Clonidine for Opioid Detoxification: Findings from the National Institute on Drug Abuse Clinical Trials Network</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#A_Multi-Center_Randomized_Trial_of_Buprenorphine-Naloxone_Versus_Clonidine_for_Opioid_Detoxification:NIDA_Dissemination_Artifact:NIDA_Dissemination_Artifact_87 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#A_Multi-Center_Randomized_Trial_of_Buprenorphine-Naloxone_Versus_Clonidine_for_Opioid_Detoxification:NIDA_Dissemination_Artifact:NIDA_Dissemination_Artifact_87">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000013"/>
         <obo:IAO_0000136 rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#CTN-0001"/>
         <obo:IAO_0000136 rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#CTN-0002"/>
+        <hasKeyword rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#Suboxone"/>
+        <hasKeyword rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#clonidine_hydrochloride"/>
+        <hasKeyword rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#naltrexone"/>
+        <hasKeyword rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#opiate"/>
+        <has_objective_specificatiokn rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#compare_suboxone_to_clonidine"/>
+        <has_title rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#A_Multi-Center_Randomized_Trial_of_Buprenorphine-Naloxone_Versus_Clonidine_for_Opioid_Detoxification:_Findings_from_the_National_Institute_on_Drug_Abuse_Clinical_Trials_Network"/>
         <hasDOI xml:lang="en">10.1111/j.1360-0443.2005.01154.x</hasDOI>
         <hasPMCID xml:lang="en">PMC1480367</hasPMCID>
         <hasPMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16042639</hasPMID>
-        <rdfs:label>A Multi-Center Randomized Trial of Buprenorphine-Naloxone Versus Clonidine for Opioid Detoxification: Findings from the National Institute on Drug Abuse Clinical Trials Network</rdfs:label>
+        <rdfs:label xml:lang="en">NIDA Dissemination Artifact 87</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 
