@@ -1,0 +1,294 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns0: <http://purl.obolibrary.org/obo/> .
+@prefix ns1: <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#> .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12>
+  a owl:Ontology ;
+  owl:imports <http://purl.obolibrary.org/obo/cmo/2.42/cmo.owl>, <http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl>, <http://purl.obolibrary.org/obo/ro/core.owl> ;
+  rdfs:label "Sudo: Substance Use Disorders Ontology"@en ;
+  dc11:title "Sudo: Substance Use Disorders Ontology"@en .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasAffiliation> a owl:ObjectProperty .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasAllotmentCriterion> a owl:ObjectProperty .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasCitation> a owl:ObjectProperty .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasComparisonSpecification>
+  a owl:ObjectProperty ;
+  rdfs:subPropertyOf <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasStudyDesignSpecification> ;
+  rdfs:domain <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#Study> ;
+  rdfs:range <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#comparison_specification> ;
+  rdfs:label "has comparison specification" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasDegree> a owl:ObjectProperty .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasEnrollmentCriterion> a owl:ObjectProperty .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasExclusionCriterion> a owl:ObjectProperty .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasInclusionCriterion> a owl:ObjectProperty .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasInterventionSpecification>
+  a owl:ObjectProperty ;
+  rdfs:subPropertyOf <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasStudyDesignSpecification> ;
+  rdfs:domain <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#Study> ;
+  rdfs:range <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#'intervention_specification'> ;
+  rdfs:label "has intervention specification" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasJournalCitation> a owl:ObjectProperty .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasJournalIssue> a owl:ObjectProperty .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasJournalName> a owl:ObjectProperty .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasJournalNumber> a owl:ObjectProperty .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasKeyword> a owl:ObjectProperty .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasMeasurement> a owl:ObjectProperty .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasMetadata> a owl:ObjectProperty .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasOutcomeSpecification>
+  a owl:ObjectProperty ;
+  rdfs:subPropertyOf <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasStudyDesignSpecification> ;
+  rdfs:domain <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#Study> ;
+  rdfs:range <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#outcome_specification> ;
+  rdfs:label "has outcome specification" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasPopulationSpecification>
+  a owl:ObjectProperty ;
+  rdfs:subPropertyOf <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasStudyDesignSpecification> ;
+  rdfs:domain <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#Study> ;
+  rdfs:range <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#'population_specification'> ;
+  rdfs:label "has population specification" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasStudyDesignSpecification>
+  a owl:ObjectProperty ;
+  rdfs:label "has study design specification" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasUnit> a owl:ObjectProperty .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasValue> a owl:ObjectProperty .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasCriterionType> a owl:DatatypeProperty .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasDOI>
+  a owl:DatatypeProperty, owl:FunctionalProperty ;
+  rdfs:range xsd:anyURI ;
+  rdfs:label "has document object identifier (doi)" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasEndPage> a owl:DatatypeProperty .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasFamilyName>
+  a owl:DatatypeProperty ;
+  rdfs:range xsd:string ;
+  rdfs:label "has family name" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasGivenName>
+  a owl:DatatypeProperty ;
+  rdfs:range xsd:string ;
+  rdfs:label "has given name" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasPMCID>
+  a owl:DatatypeProperty ;
+  rdfs:range xsd:string ;
+  rdfs:label "has PubMed Central ID" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasPMID>
+  a owl:DatatypeProperty ;
+  rdfs:label "has PubMed ID" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasStartPage> a owl:DatatypeProperty .
+<http://purl.obolibrary.org/obo/CMO_0000000> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000020> .
+<http://purl.obolibrary.org/obo/CMO_0000047> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000020> .
+<http://purl.obolibrary.org/obo/CMO_0000048> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000020> .
+<http://purl.obolibrary.org/obo/CMO_0000704> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000020> .
+<http://purl.obolibrary.org/obo/CMO_0001818> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000020> .
+<http://purl.obolibrary.org/obo/CMO_0001819> rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000020> .
+<http://purl.obolibrary.org/obo/IAO_0000301> rdfs:subClassOf [
+    a owl:Class ;
+    owl:unionOf (
+     _:genid2
+     _:genid4
+     _:genid6
+     _:genid8
+   )
+  ] .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#AdministrationOfFDAApprovedSubstance>
+  a owl:Class ;
+  rdfs:subClassOf <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#AdministrationOfSubtance> ;
+  rdfs:label "administration of substance, FDA-approved" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#AdministrationOfNotFDAApprovedSubstance>
+  a owl:Class ;
+  rdfs:subClassOf <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#AdministrationOfSubtance> ;
+  rdfs:label "administration of substance, not FDA-approved" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#AdministrationOfSubtance>
+  a owl:Class ;
+  rdfs:subClassOf <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#'intervention_specification'> ;
+  rdfs:label "administration of substance" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#AllotmentCriterion>
+  a owl:Class ;
+  rdfs:subClassOf <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#criterion> .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#Author>
+  a owl:Class ;
+  rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000040>, [
+    a owl:Restriction ;
+    owl:onProperty <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasAffiliation> ;
+    owl:someValuesFrom <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#Organization>
+  ] .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#DOI>
+  a owl:Class ;
+  rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000578> .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#Degree>
+  a owl:Class ;
+  rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000020> .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#EnrollmentCriterion>
+  a owl:Class ;
+  rdfs:subClassOf <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#criterion> .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#ExclusionCriterion>
+  a owl:Class ;
+  rdfs:subClassOf <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#criterion> .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#InclusionCriterion>
+  a owl:Class ;
+  rdfs:subClassOf <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#criterion> .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#JournalCitation>
+  a owl:Class ;
+  rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000300> ;
+  rdfs:label "journal citation" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#Measuring>
+  a owl:Class ;
+  rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0000471> .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#Name>
+  a owl:Class ;
+  rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000020> .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#Organization>
+  a owl:Class ;
+  rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000141> .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#PMCID>
+  a owl:Class ;
+  rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000578> .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#PMID>
+  a owl:Class ;
+  rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000578> .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#PerformanceOfProcedure>
+  a owl:Class ;
+  rdfs:subClassOf <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#'intervention_specification'> ;
+  rdfs:label "performance of procedure" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#ProjectTitle>
+  a owl:Class ;
+  rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000020> .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#Study>
+  a owl:Class ;
+  rdfs:subClassOf <http://purl.obolibrary.org/obo/BFO_0000031>, [
+    a owl:Class ;
+    owl:intersectionOf (
+     _:genid12
+     _:genid14
+     _:genid16
+     _:genid18
+   )
+  ] .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#comparison_specification>
+  a owl:Class ;
+  rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0500000> ;
+  rdfs:label "comparison specification" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#criterion>
+  a owl:Class ;
+  rdfs:subClassOf <http://purl.obolibrary.org/obo/IAO_0000055> .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#outcome_specification>
+  a owl:Class ;
+  rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0500000> ;
+  rdfs:label "outcome specification" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#'intervention_specification'>
+  a owl:Class ;
+  rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0500000> ;
+  rdfs:label "intervention specification" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#'population_specification'>
+  a owl:Class ;
+  rdfs:subClassOf <http://purl.obolibrary.org/obo/OBI_0500000>, [
+    a owl:Restriction ;
+    owl:onProperty <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasAllotmentCriterion> ;
+    owl:someValuesFrom <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#AllotmentCriterion>
+  ], [
+    a owl:Restriction ;
+    owl:onProperty <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasEnrollmentCriterion> ;
+    owl:someValuesFrom <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#EnrollmentCriterion>
+  ], [
+    a owl:Restriction ;
+    owl:onProperty <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasExclusionCriterion> ;
+    owl:someValuesFrom <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#ExclusionCriterion>
+  ], [
+    a owl:Restriction ;
+    owl:onProperty <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#hasInclusionCriterion> ;
+    owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+    owl:onClass <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#InclusionCriterion>
+  ] ;
+  rdfs:label "population specification" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#CTN-0001>
+  a owl:NamedIndividual, <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#Study> ;
+  rdfs:comment "CTN-0001: Primary Outcomes Study" .
+
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#CTN-0002> a owl:NamedIndividual .
+<http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#A_Multi-Center_Randomized_Trial_of_Buprenorphine-Naloxone_Versus_Clonidine_for_Opioid_Detoxification:_Findings_from_the_National_Institute_on_Drug_Abuse_Clinical_Trials_Network>
+  a owl:NamedIndividual, <http://purl.obolibrary.org/obo/IAO_0000310> ;
+  ns0:IAO_0000136 <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#CTN-0001>, <http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12#CTN-0002> ;
+  ns1:hasDOI "10.1111/j.1360-0443.2005.01154.x"@en ;
+  ns1:hasPMCID "PMC1480367"@en ;
+  ns1:hasPMID 16042639 ;
+  rdfs:label "A Multi-Center Randomized Trial of Buprenorphine-Naloxone Versus Clonidine for Opioid Detoxification: Findings from the National Institute on Drug Abuse Clinical Trials Network" .
+
+_:genid2
+  a owl:Restriction ;
+  owl:onProperty ns1:hasJournalCitation ;
+  owl:someValuesFrom ns1:JournalCitation .
+
+_:genid4
+  a owl:Restriction ;
+  owl:onProperty ns1:hasDOI ;
+  owl:someValuesFrom xsd:anyURI .
+
+_:genid6
+  a owl:Restriction ;
+  owl:onProperty ns1:hasPMCID ;
+  owl:someValuesFrom xsd:string .
+
+_:genid8
+  a owl:Restriction ;
+  owl:onProperty ns1:hasPMID ;
+  owl:someValuesFrom xsd:integer .
+
+_:genid12
+  a owl:Restriction ;
+  owl:onProperty ns1:hasComparisonSpecification ;
+  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+  owl:onClass ns1:comparison_specification .
+
+_:genid14
+  a owl:Restriction ;
+  owl:onProperty ns1:hasInterventionSpecification ;
+  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+  owl:onClass ns1:'intervention_specification' .
+
+_:genid16
+  a owl:Restriction ;
+  owl:onProperty ns1:hasOutcomeSpecification ;
+  owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+  owl:onClass ns1:outcome_specification .
+
+_:genid18
+  a owl:Restriction ;
+  owl:onProperty ns1:hasPopulationSpecification ;
+  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+  owl:onClass ns1:'population_specification' .
+
