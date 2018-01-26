@@ -1,0 +1,24 @@
+P:
+	:i cocaine user  
+	:i methamphetamine user 
+	:t 415 
+
+	:a function random
+	:a group usual care
+	:a group usual care AND abstinence-based incentives
+
+I:
+	:all standard care
+	:group "usual care AND abstinence-based incentives" monetary prizes 
+
+
+C:
+	:m duration of treatment 
+	:m number of sessions 
+	:m number of substance-free urine samples 
+
+O:
+	:"duration of treatment" :"usual care AND abstinence-based incentives" 8.0 4.2
+	:"number of sessions" :"usual care AND abstinence-based incentives" 19.2 16.8
+	:"duration of treatment" :"usual care" 6.9 4.4 weeks
+	:"number of sessions" :"usual care" 15.7 14.4 sessions
