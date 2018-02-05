@@ -154,12 +154,11 @@
     <Abstract>
       <Objective>The objective of this study was to evaluate the efficacy of an abstinence-based contingency management intervention as an addition to usual care in community treatment settings.
       </Objective> 
-
-       A total of 415 cocaine or methamphetamine users beginning outpatient substance abuse treatment were randomly assigned to usual care or usual care plus abstinence-based incentives for 12 weeks. All participants received standard care, and those assigned to the abstinence-based incentive condition also earned chances to win prizes for submitting substance-free urine samples; the chances of winning prizes increased with continuous time abstinent. Participants assigned to the abstinence-based incentive condition remained in treatment for a mean +/- SD of 8.0 +/- 4.2 weeks and attended a mean +/- SD of 19.2 +/- 16.8 counseling sessions compared with 6.9 +/- 4.4 weeks and 15.7 +/- 14.4 sessions for those assigned to the usual care condition (P.02 for all). Participants in the abstinence-based incentive condition also submitted significantly more stimulant- and alcohol-free samples (P.001). The abstinence-based incentive group was significantly more likely to achieve 4, 8, and 12 weeks of continuous abstinence than the control group, with odds ratios of 2.5, 2.7, and 4.5, respectively. However, the percentage of positive samples submitted was low overall and did not differ between conditions.
       <AbstractText>This is the Primary Outcomes Article for CTN-0006. Contingency management interventions that provide tangible incentives based on objective indicators of drug abstinence are efficacious in improving outcomes in substance abusers, but these treatments have rarely been implemented in community-based settings. The objective of this study was to evaluate the efficacy of an abstinence-based contingency management intervention as an addition to usual care in community treatment settings. A total of 415 cocaine or methamphetamine users beginning outpatient substance abuse treatment were randomly assigned to usual care or usual care plus abstinence-based incentives for 12 weeks. All participants received standard care, and those assigned to the abstinence-based incentive condition also earned chances to win prizes for submitting substance-free urine samples; the chances of winning prizes increased with continuous time abstinent. Participants assigned to the abstinence-based incentive condition remained in treatment for a mean +/- SD of 8.0 +/- 4.2 weeks and attended a mean +/- SD of 19.2 +/- 16.8 counseling sessions compared with 6.9 +/- 4.4 weeks and 15.7 +/- 14.4 sessions for those assigned to the usual care condition (P.02 for all). Participants in the abstinence-based incentive condition also submitted significantly more stimulant- and alcohol-free samples (P.001). The abstinence-based incentive group was significantly more likely to achieve 4, 8, and 12 weeks of continuous abstinence than the control group, with odds ratios of 2.5, 2.7, and 4.5, respectively. However, the percentage of positive samples submitted was low overall and did not differ between conditions.</AbstractText>
       <PopulationSpecification>
         <Enrollment>
           <CriterionSet>
+            <!-- It is not specified whether a participant has to specify ALL or ANY criteria. -->
             <Criterion>
               <CriterionType>Inclusion</CriterionType>
               <CriterionSpecification>User of methamphetamine</CriterionSpecification>
@@ -205,9 +204,6 @@
                 </Subgroup>
               </SubgroupSet>
             </InitialSize>
-            <InterventionSet>
-              <Intervention>placeholder</Intervention>
-            </InterventionSet>
             <MetricResultSet>
               <MetricResult/>
             </MetricResultSet>
@@ -225,6 +221,16 @@
               <TypeSpecificFields/>
             </PlannedActionSpecification>
           </PlannedAction>
+          <PlannedAction>
+            <Name>Prizes</Name>
+            <IntendedTargetPopulationSet>
+              <IntendedTargetPopulation>Usual Care AND Prizes</IntendedTargetPopulation>
+            </IntendedTargetPopulationSet>
+            <PlannedActionSpecification>
+              <TypeOfAction>Winning prizes</TypeOfAction>
+              <TypeSpecificFields></TypeSpecificFields>
+            </PlannedActionSpecification>
+          </PlannedAction>
         </PlannedActionSet>
         <MetricSpecificationSet>
           <MetricSpecification>
@@ -236,11 +242,9 @@
             <IntendedTargetPopulationSet>
               <IntendedTargetPopulation>
                 <Name>Usual Care</Name>
-                <Value>placeholder</Value>
               </IntendedTargetPopulation>
               <IntendedTargetPopulation>
                 <Name>Usual Care AND Prizes</Name>
-                <Value>placeholder</Value>
               </IntendedTargetPopulation>
             </IntendedTargetPopulationSet>
             <StatisticSpecification>
@@ -251,15 +255,65 @@
               <FalsePositiveChance>0.05</FalsePositiveChance>
             </StatisticSpecification>
           </MetricSpecification>
+          <MetricSpecification>
+            <Name>Number of Counseling Sessions Attended</Name>
+            <Measurement>
+              <MeasurementName>Count</MeasurementName>
+              <MeasurementUnits>Unitless</MeasurementUnits>
+            </Measurement>
+           <IntendedTargetPopulationSet>
+              <IntendedTargetPopulation>
+                <Name>Usual Care</Name>
+              </IntendedTargetPopulation>
+              <IntendedTargetPopulation>
+                <Name>Usual Care AND Prizes</Name>
+              </IntendedTargetPopulation>
+            </IntendedTargetPopulationSet>
+          </MetricSpecification>
+          <MetricSpecification>
+            <Name>Number of Stimulant-Free Urine Samples</Name>
+            <Measurement>
+              <MeasurementName>Count</MeasurementName>
+              <MeasurementUnits>Unitless</MeasurementUnits>
+            </Measurement>
+           <IntendedTargetPopulationSet>
+              <IntendedTargetPopulation>
+                <Name>Usual Care</Name>
+              </IntendedTargetPopulation>
+              <IntendedTargetPopulation>
+                <Name>Usual Care AND Prizes</Name>
+              </IntendedTargetPopulation>
+            </IntendedTargetPopulationSet>
+          </MetricSpecification>
+          <MetricSpecification>
+            <Name>Number of Alcohol-Free Urine Samples</Name>
+            <Measurement>
+              <MeasurementName>Count</MeasurementName>
+              <MeasurementUnits>Unitless</MeasurementUnits>
+            </Measurement>
+           <IntendedTargetPopulationSet>
+              <IntendedTargetPopulation>
+                <Name>Usual Care</Name>
+              </IntendedTargetPopulation>
+              <IntendedTargetPopulation>
+                <Name>Usual Care AND Prizes</Name>
+              </IntendedTargetPopulation>
+            </IntendedTargetPopulationSet>
+          </MetricSpecification>
         </MetricSpecificationSet>
         <MetricResultSet>
           <MetricResult>
-            <MetricName>placeholder</MetricName>
+            <MetricName>Weeks In Treatment</MetricName>
             <AllocatedStudyArmSet>
               <AllocatedStudyArm>
-                <Name>placeholder</Name>
-                <MetricValue>placeholder</MetricValue>
+                <Name>Usual Care AND Prizes</Name>
+                <MetricValue>8.0</MetricValue>
+                <MetricDeviation>4.0</MetricDeviation>
               </AllocatedStudyArm>
+              <AllocatedStudyArm>
+                <Name>Usual Care</Name>
+                <MetricValue>6.9</MetricValue>
+                <MetricDeviation>4.4</MetricDeviation>
             </AllocatedStudyArmSet>
           </MetricResult>
         </MetricResultSet>

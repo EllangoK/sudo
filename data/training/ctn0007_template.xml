@@ -119,37 +119,32 @@
         <Enrollment>
           <CriterionSet>
             <Criterion>
-              <CriterionType>placeholder</CriterionType>
-              <CriterionSpecification>placeholder</CriterionSpecification>
+              <CriterionType>Inclusion</CriterionType>
+              <CriterionSpecification>Abuser of stimulant</CriterionSpecification>
             </Criterion>
           </CriterionSet>
         </Enrollment>
         <Allocation>
           <AllocationPredicate>
             <AllocationPredicateFunction>
-              <AllocationPredicateFunctionSignature>placeholder</AllocationPredicateFunctionSignature>
-              <AllocationPredicateFunctionArgumentSet>
-                <AllocationPredicateFunctionArgument>
-                  <AllocationPredicateFunctionArgumentName>placeholder</AllocationPredicateFunctionArgumentName>
-                  <AllocationPredicateFunctionArgumentValue>placeholder</AllocationPredicateFunctionArgumentValue>
-                </AllocationPredicateFunctionArgument>
+              <AllocationPredicateFunctionSignature>null</AllocationPredicateFunctionSignature>
               </AllocationPredicateFunctionArgumentSet>
             </AllocationPredicateFunction>
           </AllocationPredicate>
         </Allocation>
         <AllocatedStudyArmSet>
           <AllocatedStudyArm>
-            <Name>placeholder</Name>
+            <Name>Participants</Name>
             <InitialSize>
               <SubgroupSet>
                 <Subgroup>
-                  <Name>placeholder</Name>
-                  <Size>placeholder</Size>
+                  <Name>Study Population</Name>
+                  <Size>388</Size>
                 </Subgroup>
               </SubgroupSet>
             </InitialSize>
             <InterventionSet>
-              <Intervention>placeholder</Intervention>
+              <Intervention>Provision of Prizes</Intervention>
             </InterventionSet>
             <MetricResultSet>
               <MetricResult/>
