@@ -6,9 +6,9 @@
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ro/core.owl" uri="https://raw.githubusercontent.com/oborel/obo-relations/master/core.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ro/releases/2017-10-02/ro.owl" uri="https://raw.githubusercontent.com/oborel/obo-relations/master/ro.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1517779733177" name="http://purl.obolibrary.org/obo/cmo.owl" uri="cmo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1517779733177" name="http://purl.obolibrary.org/obo/dron.owl/" uri="dron-full.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1517779733177" name="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12" uri="sudo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1517779733177" name="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3" uri="without-bfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517865976667" name="http://purl.obolibrary.org/obo/cmo.owl" uri="cmo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517865976667" name="http://purl.obolibrary.org/obo/dron.owl/" uri="dron-full.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517865976667" name="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-12" uri="sudo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1517865976667" name="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3" uri="without-bfo.owl"/>
     </group>
 </catalog>
