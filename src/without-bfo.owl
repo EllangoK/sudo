@@ -327,6 +327,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#CTN-021 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#CTN-021">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Clinical_Trial_Network"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Cigarettes -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Cigarettes">
@@ -614,6 +622,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Minorities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Minorities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Keyword"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Motivational_Incentives -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Motivational_Incentives">
@@ -662,14 +678,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Number_of_negative_urine_samples">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Measurement"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of positive urine samples</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Number_of_positive_urine_samples -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Number_of_positive_urine_samples">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of positive urine samples</rdfs:label>
     </owl:Class>
     
@@ -729,7 +737,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Reductions_in_drug_risk">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Comparison"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Measurement"/>
-        <rdfs:label>Reductions in drug risk</rdfs:label>
+        <rdfs:label>Reductions in substance abuse/use</rdfs:label>
     </owl:Class>
     
 
@@ -1546,6 +1554,108 @@ The number of patients younger than 18 years was too small to analyze separately
     
 
 
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Study_Specification_Number_359 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Study_Specification_Number_359">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Clinical_Trial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#has_allocation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#random"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#has_comparison"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Reductions_in_drug_risk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#has_intervention"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Motivational_Interviewing"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#standard_couseling"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#has_measurement"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Reductions_in_drug_risk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#has_population"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#hispanic"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#user_of_substance"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#report_on_activities_from"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#CTN-021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Alcohol"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Behavioral_Therapy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Community_health_services"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Minorities"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Motivational_Interviewing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Retention_in_Treatment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#&apos;has_conclusion&apos;"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Inconclusive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>This is the Primary Outcomes Article for CTN-0021. Hispanic individuals are underrepresented in clinical and research populations and are often excluded from clinical trials in the United States. Hence, there are few data on the effectiveness of most empirically validated therapies for Hispanic substance users. The authors conducted a multisite randomized trial in the National Drug Abuse Treatment Clinical Trials Network (CTN) comparing the effectiveness of three individual sessions of motivational enhancement therapy with that of three individual sessions of counseling as usual on treatment retention and frequency of substance use (protocol NIDA-CTN-0021); all assessment and treatment sessions were conducted in Spanish among 405 individuals seeking treatment for any type of current substance use. Treatment exposure was good, with 66% of participants completing all three protocol sessions. Although both interventions resulted in reductions in substance use during the 4-week therapy phase, there were no significant Treatment Condition x Time interactions nor Site x Treatment Condition interactions.</rdfs:comment>
+        <rdfs:label>Study Specification Number 359</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Study_Specification_Number_713 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Study_Specification_Number_713">
@@ -1829,6 +1939,14 @@ Despite recent emphasis on integrating empirically validated treatment into clin
     
 
 
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#hispanic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#hispanic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Enrollment_Population"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#human_contact -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#human_contact">
@@ -1958,12 +2076,6 @@ Despite recent emphasis on integrating empirically validated treatment into clin
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#administration_of_substance"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">steady administration of substance</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#substance_abuse_treatment-as-usual -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#substance_abuse_treatment-as-usual"/>
     
 
 
@@ -2509,6 +2621,16 @@ Despite recent emphasis on integrating empirically validated treatment into clin
     
 
 
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Percent_of_participants_that_completed_all_3_session_in_Trial_359 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Percent_of_participants_that_completed_all_3_session_in_Trial_359">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Percent_of_counseling_sessions_attended"/>
+        <has_value>66%</has_value>
+        <rdfs:label>Percent of participants that completed all 3 sessions in Trial 359</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Percent_of_smoking_abstinence_during_follow-up_in_Trial_241 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Percent_of_smoking_abstinence_during_follow-up_in_Trial_241">
@@ -2574,6 +2696,16 @@ Despite recent emphasis on integrating empirically validated treatment into clin
         <has_subgroup rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Inpatient_Recipients_of_Suboxone_in_Trial_Number_87"/>
         <has_subgroup rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Outpatient_Recipients_of_Suboxone_in_Trial_Number_87"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recipients of Suboxone in Trial Number 87</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Reduction_in_substance_abuse_in_Trial_359 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Reduction_in_substance_abuse_in_Trial_359">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Reductions_in_drug_risk"/>
+        <has_boolean rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</has_boolean>
+        <rdfs:label>Reduction in substance abuse in Trial 359</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2682,6 +2814,17 @@ Despite recent emphasis on integrating empirically validated treatment into clin
         <has_measurement rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Number_of_urine_samples_positive_for_opioid_in_subjects_in_the_detox_group_in_week_8_in_Trial_328"/>
         <has_study_arm rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Substance_Users_in_Trial_Number_328"/>
         <rdfs:label>Trial Number 328</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Trial_Number_359 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Trial_Number_359">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Study_Specification_Number_359"/>
+        <has_measurement rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Percent_of_participants_that_completed_all_3_session_in_Trial_359"/>
+        <has_measurement rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Reduction_in_substance_abuse_in_Trial_359"/>
+        <rdfs:label>Trial Number 359</rdfs:label>
     </owl:NamedIndividual>
     
 
