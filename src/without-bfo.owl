@@ -187,6 +187,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#ADHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#ADHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Keyword"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Additional_treatments_offered_no_improvement_to_standard_treatments -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Additional_treatments_offered_no_improvement_to_standard_treatments">
@@ -343,6 +351,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#CTN-028 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#CTN-028">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Clinical_Trial_Network"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Cigarettes -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Cigarettes">
@@ -488,11 +504,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Currently_recieving_cognitive-behavioral_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Currently_recieving_cognitive-behavioral_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#human_contact"/>
+        <rdfs:label>provision of cognitive-behavioral therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#DSM-IV_Diagnosis_of_ADHD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#DSM-IV_Diagnosis_of_ADHD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Enrollment_Population"/>
+        <rdfs:label>DSM-IV Diagnosis of ADHD</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#DSM-IV_Diagnosis_of_Opioid_Dependence -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#DSM-IV_Diagnosis_of_Opioid_Dependence">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Enrollment_Population"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DSM-IV Diagnosis of Opioid Dependence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#DSM-IV_Diagnosis_of_SUD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#DSM-IV_Diagnosis_of_SUD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Enrollment_Population"/>
+        <rdfs:label>DSM-IV Diagnosis of SUD</rdfs:label>
     </owl:Class>
     
 
@@ -716,9 +759,37 @@
     
 
 
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#OROS-MPH_did_not_show_greater_efficacy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#OROS-MPH_did_not_show_greater_efficacy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Outcome"/>
+        <rdfs:label>OROS-MPH did not show greater efficacy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#OROS-MPH_is_associated_with_modestly_greater_clinical_improvement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#OROS-MPH_is_associated_with_modestly_greater_clinical_improvement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Outcome"/>
+        <rdfs:label>OROS-MPH is associated with modestly greater clinical improvement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Outcome -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Outcome"/>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Parent_ADHD-RS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Parent_ADHD-RS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Comparison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Measurement"/>
+        <rdfs:label>Parent ADHD-RS</rdfs:label>
+    </owl:Class>
     
 
 
@@ -888,6 +959,16 @@
         </rdfs:subClassOf>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is the Primary Outcomes Article for CTN-0001 and CTN-0002.The clinical effectiveness of buprenorphine-naloxone (bup-nx) and clonidine for opioid detoxification in inpatient and outpatient community treatment programs was investigated in the first studies of the National Institute of Drug Abuse Clinical Trials Network. DESIGN: DSM-IV-diagnosed opioid-dependent individuals seeking short-term treatment were randomly assigned, in a 2:1 ratio favoring bup-nx, to a 13-day detoxification using bup-nx or clonidine. A total of 113 inpatients (77 bup-nx, 36 clonidine) and 231 outpatients (157 bup-nx, 74 clonidine) participated. Supportive interventions included appropriate ancillary medications and standard counseling procedures defined as the proportion of participants in each condition who were both retained in the study for the entire duration and provided an opioid-free urine sample on the last day of clinic attendance. Secondary outcome measures included use of ancillary medications, number of side effects reported and withdrawal and craving ratings. A total of 59 of the 77 (77%) inpatients assigned to the bup-nx condition achieved the treatment success criterion compared to 8 of the 36 (22%) assigned to clonidine, whereas 46 of the 157 (29%) outpatients assigned to the bup-nx condition achieved the treatment success criterion, compared to 74 (5%) assigned to clonidine.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Study Specification Number 87</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Reported_days_of_substance_use -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Reported_days_of_substance_use">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Comparison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Measurement"/>
+        <rdfs:label>Reported days of substance use</rdfs:label>
     </owl:Class>
     
 
@@ -1689,6 +1770,123 @@ The number of patients younger than 18 years was too small to analyze separately
     
 
 
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Study_Specification_Number_710 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Study_Specification_Number_710">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Clinical_Trial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#has_comparison"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Parent_ADHD-RS"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Reported_days_of_substance_use"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#ADHD_Rating_Scale_(ADHD-RS)"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#has_intervention"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Currently_recieving_cognitive-behavioral_therapy"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Osmotic-Release_Methylphenidate_(OROS-MPH)"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Currently_recieving_cognitive-behavioral_therapy"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Osmotic-Release_Methylphenidate_(OROS-MPH)"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#has_measurement"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Parent_ADHD-RS"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Reported_days_of_substance_use"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#ADHD_Rating_Scale_(ADHD-RS)"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#has_outcome"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#OROS-MPH_did_not_show_greater_efficacy"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#OROS-MPH_is_associated_with_modestly_greater_clinical_improvement"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#has_population"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Currently_recieving_cognitive-behavioral_therapy"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#DSM-IV_Diagnosis_of_ADHD"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#DSM-IV_Diagnosis_of_SUD"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#multisite"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#user_of_substance"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#youth"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#report_on_activities_from"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#CTN-028"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#ADHD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Community_health_services"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Youth"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Osmotic-Release_Methylphenidate_(OROS-MPH)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>This is the Primary Outcomes Paper for CTN-0028. National Drug Abuse Treatment Clinical Trials Network protocol CTN-0028 was designed to evaluate the efficacy and safety of osmotic-release methylphenidate (OROS-MPH) compared with placebo for attention-deficit/hyperactivity disorder (ADHD), and the impact on substance treatment outcomes in adolescents concurrently receiving cognitive-behavioral therapy (CBT) for substance use disorders (SUD). The study was a 16-week, randomized controlled multi-site trial of OROS-MPH + CBT versus placebo + CBT in 303 adolescents (aged 13 through 18) meeting DSM-IV diagnostic criteria for ADHD and SUD. Primary outcome measures included the following: for ADHD, clinician-administered ADHD Rating Scale (ADHD-RS), adolescent informant; for substance use, adolescent-reported days of use in the past 28 days. Secondary outcome measures included parent ADHD-RS and weekly urine drug screens. Analysis of the results found no group differences on reduction in ADHD-RS scores or reduction in days of substance use. Some secondary outcomes favored OROS-MPH, including lower parent ADHD-RS scores at 8 and 16 weeks, and more negative urine drug screens in OROS-MPH compared with placebo.</rdfs:comment>
+        <rdfs:label>Study Specification Number 710</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Study_Specification_Number_713 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Study_Specification_Number_713">
@@ -2002,6 +2200,14 @@ Results determined that changes in transaminase levels did not differ by medicat
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Withdrawal_rating">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Comparison"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Withdrawal rating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Youth -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Youth">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Keyword"/>
     </owl:Class>
     
 
@@ -2331,7 +2537,7 @@ Results determined that changes in transaminase levels did not differ by medicat
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#&apos;provision_of_motivational_interviewing&apos; -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#&apos;provision_of_motivational_interviewing&apos;">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Intervention"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#human_contact"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">provision of motivational interviewing</rdfs:label>
     </owl:Class>
     
@@ -2360,6 +2566,16 @@ Results determined that changes in transaminase levels did not differ by medicat
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#7-day_taper">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#tapered_administration_of_substance"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 day taper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#ADHD_Rating_Scale_(ADHD-RS) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#ADHD_Rating_Scale_(ADHD-RS)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Comparison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Measurement"/>
+        <rdfs:label>ADHD Rating Scale (ADHD-RS)</rdfs:label>
     </owl:Class>
     
 
@@ -2407,12 +2623,30 @@ Results determined that changes in transaminase levels did not differ by medicat
     
 
 
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Osmotic-Release_Methylphenidate_(OROS-MPH) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Osmotic-Release_Methylphenidate_(OROS-MPH)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Keyword"/>
+        <rdfs:label>Osmotic-Release Methylphenidate (OROS-MPH)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#abstinence_from_smoking_(nicotine) -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#abstinence_from_smoking_(nicotine)">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Comparison"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Measurement"/>
         <rdfs:label>abstinence from smoking (nicotine)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#administration_of_osmotic-release_methylphenidate_(OROS-MPH) -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#administration_of_osmotic-release_methylphenidate_(OROS-MPH)">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#administration_of_substance"/>
+        <rdfs:label>administration of osmotic-release methylphenidate (OROS-MPH)</rdfs:label>
     </owl:Class>
     
 
@@ -2443,6 +2677,24 @@ Results determined that changes in transaminase levels did not differ by medicat
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Fraction_of_urine_samples_positive_for_opioid_in_inpatients_recieving_Suboxone_in_CTN-001_and_CTN-002">
         <rdf:type rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Fraction_of_urine_samples_positive_for_opioids"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fraction of urine samples positive for opioid in inpatients recieving Suboxone in CTN-001 and CTN-002</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Group_differences_on_reduction_in_ADHD-RS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Group_differences_on_reduction_in_ADHD-RS">
+        <has_boolean rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</has_boolean>
+        <rdfs:label>Group differences on reduction in ADHD-RS in Trial 710</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Group_differences_on_reduction_of_days_of_substance_use_in_Trial_710 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Group_differences_on_reduction_of_days_of_substance_use_in_Trial_710">
+        <has_boolean rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</has_boolean>
+        <rdfs:label>Group differences on reduction of days of substance use in Trial 710</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2480,6 +2732,24 @@ Results determined that changes in transaminase levels did not differ by medicat
         <rdf:type rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#nicotine_withdrawal"/>
         <has_boolean rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</has_boolean>
         <rdfs:label>Lower nicotine withdrawal in Trial 241</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Lower_parent_ADHD-RS_scores -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Lower_parent_ADHD-RS_scores">
+        <has_boolean rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</has_boolean>
+        <rdfs:label>Lower ADHD-RS scores in Trial 710</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Lower_positive_urine_samples_in_Trial_710 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Lower_positive_urine_samples_in_Trial_710">
+        <has_boolean rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</has_boolean>
+        <rdfs:label>Lower amount of positive urine samples in Trial 710</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3043,6 +3313,20 @@ Results determined that changes in transaminase levels did not differ by medicat
     
 
 
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Trial_Number_710 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Trial_Number_710">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Study_Specification_Number_710"/>
+        <has_measurement rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Group_differences_on_reduction_in_ADHD-RS"/>
+        <has_measurement rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Group_differences_on_reduction_of_days_of_substance_use_in_Trial_710"/>
+        <has_measurement rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Lower_parent_ADHD-RS_scores"/>
+        <has_measurement rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Lower_positive_urine_samples_in_Trial_710"/>
+        <has_study_arm rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Youth_ADHD_and_SUD_subjects_in_Trial_710"/>
+        <rdfs:label>Trial Number 710</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Trial_Number_731 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Trial_Number_731">
@@ -3103,6 +3387,15 @@ Results determined that changes in transaminase levels did not differ by medicat
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Urine-positive-trial-90-contorl">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Number of urine samples positive for opioids in patient recieving standard counseling in Trial Number 90</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Youth_ADHD_and_SUD_subjects_in_Trial_710 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Youth_ADHD_and_SUD_subjects_in_Trial_710">
+        <has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">303</has_value>
+        <rdfs:label>Youth ADHD and SUD subjects in Trial 710</rdfs:label>
     </owl:NamedIndividual>
     <rdf:Description>
         <has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#int">255</has_value>
