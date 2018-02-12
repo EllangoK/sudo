@@ -402,12 +402,6 @@
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Clinical_Trial -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Clinical_Trial">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ECO_9000001"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Motivational_Interviewing_Is_Associated_with_Higher_Retention_at_28_days"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Trial</rdfs:label>
     </owl:Class>
     
@@ -787,12 +781,7 @@
     </owl:Class>
     
 
-   <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#No_benefit_from_HIV_counseling -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#No_benefit_from_HIV_counseling">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Outcome"/>
-        <rdfs:label>No benefit from HIV counseling</rdfs:label>
-   </owl:Class>
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Motivational_Interviewing_Is_Associated_with_Higher_Retention_at_28_days -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Motivational_Interviewing_Is_Associated_with_Higher_Retention_at_28_days">
@@ -817,6 +806,15 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Motivational Interviewing Is Associated with Higher Retention at 28 days</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#No_benefit_from_HIV_counseling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#No_benefit_from_HIV_counseling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Outcome"/>
+        <rdfs:label>No benefit from HIV counseling</rdfs:label>
     </owl:Class>
     
 
@@ -2421,14 +2419,6 @@ Results determined that changes in transaminase levels did not differ by medicat
     
 
 
-    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Unprotected_anal_or_vaginal_intercourse_episodes -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Unprotected_anal_or_vaginal_intercourse_episodes">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Comparison"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Measurement"/>
-        <rdfs:label>Unprotected anal or vaginal intercourse episodes</rdfs:label>
-        
-    </owl:Class>
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#There_were_no_significant_effects_of_MI_on_substance_use_outcomes_at_either_the_28-day_or_84-day_follow-up. -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#There_were_no_significant_effects_of_MI_on_substance_use_outcomes_at_either_the_28-day_or_84-day_follow-up.">
@@ -2459,6 +2449,16 @@ Results determined that changes in transaminase levels did not differ by medicat
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">There were no significant effects of motivational interviewing on substance use outcomes at either the 28-day or 84-day follow-up.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Unprotected_anal_or_vaginal_intercourse_episodes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Unprotected_anal_or_vaginal_intercourse_episodes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Comparison"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Measurement"/>
+        <rdfs:label>Unprotected anal or vaginal intercourse episodes</rdfs:label>
     </owl:Class>
     
 
@@ -2578,21 +2578,21 @@ Results determined that changes in transaminase levels did not differ by medicat
     
 
 
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#behavioral_therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#behavioral_therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Intervention"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral therapy</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#cigarettes_smoked_per_day -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#cigarettes_smoked_per_day">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Comparison"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Measurement"/>
         <rdfs:label>cigarettes smoked per day</rdfs:label>
-        
-    </owl:Class>
-
-    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#behavioral_therapy -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#behavioral_therapy">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Intervention"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral therapy</rdfs:label>
-
     </owl:Class>
     
 
