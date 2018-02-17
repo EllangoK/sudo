@@ -471,12 +471,6 @@
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Clinical_Trial -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Clinical_Trial">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ECO_9000001"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Motivational_Interviewing_Is_Associated_with_Higher_Retention_at_28_days"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Trial</rdfs:label>
     </owl:Class>
     
@@ -2668,7 +2662,6 @@ Results determined that changes in transaminase levels did not differ by medicat
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral therapy</rdfs:label>
     </owl:Class>
     
-
 
     <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#cigarettes_smoked_per_day -->
 
