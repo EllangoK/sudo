@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.org/sudo/ontology#"
-     xml:base="http://purl.org/sudo/ontology/sudo.owl"
+     xml:base="http://purl.org/sudo/ontology/sudo.owl#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:go="http://purl.obolibrary.org/obo/go#"
