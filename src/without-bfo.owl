@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.or/sudo/ontology#"
-     xml:base="http://purl.or/sudo/ontology"
+<rdf:RDF xmlns="http://purl.org/sudo/ontology/sudo.owl#"
+     xml:base="http://purl.org/sudo/ontology/sudo.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:go="http://purl.obolibrary.org/obo/go#"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:untitled-ontology-3="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:doid="http://purl.obolibrary.org/obo/doid#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -19,7 +18,7 @@
      xmlns:ontology="http://purl.url/sudo/ontology#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://purl.or/sudo/ontology">
+    <owl:Ontology rdf:about="http://purl.org/sudo/ontology/sudo.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/MFOMD.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/eco/releases/2018-01-09/eco.owl"/>
     </owl:Ontology>
