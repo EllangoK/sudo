@@ -280,6 +280,374 @@
     
 
 
+    <!-- http://purl.org/sudo/ontology/sudo.owl#CTN-049 -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#CTN-049">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Clinical_Trial_Network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#CTN-059 -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#CTN-059">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Clinical_Trial_Network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Emergency_Department_Patients -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#Emergency_Department_Patients">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Enrollment_Population"/>
+        <rdfs:label>Emergency Department Patients</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#HIV_Positive -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#HIV_Positive">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Enrollment_Population"/>
+        <rdfs:label>HIV Positive</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#HIV_Viral_Nonsuppression -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#HIV_Viral_Nonsuppression">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Comparison"/>
+        <rdfs:label>HIV Viral Nonsuppression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#HIV_Viral_Suppresion -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#HIV_Viral_Suppresion">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Comparison"/>
+        <rdfs:label>HIV Viral Suppresion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Number_of_positive_hair_samples_for_drug_use -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#Number_of_positive_hair_samples_for_drug_use">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Comparison"/>
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Measurement"/>
+        <rdfs:label>Number of positive hair samples for drug use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Opioids -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#Opioids">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Keyword"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Poor_provider-patient_communication -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#Poor_provider-patient_communication">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Outcome"/>
+        <rdfs:label>Poor provider-patient communication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Study_Specification_Number_1213 -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#Study_Specification_Number_1213">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Clinical_Trial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_allocation"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#random"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_comparison"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.org/sudo/ontology/sudo.owl#HIV_Viral_Nonsuppression"/>
+                            <rdf:Description rdf:about="http://purl.org/sudo/ontology/sudo.owl#HIV_Viral_Suppresion"/>
+                            <rdf:Description rdf:about="http://purl.org/sudo/ontology/sudo.owl#death"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_intervention"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.org/sudo/ontology/sudo.owl#patient_navigation_intervention"/>
+                            <rdf:Description rdf:about="http://purl.url/sudo/ontology#standard_couseling"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.org/sudo/ontology/sudo.owl#patient_navigation_intervention"/>
+                                    <rdf:Description rdf:about="http://purl.url/sudo/ontology#monetary_prizes"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_measurement"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.org/sudo/ontology/sudo.owl#HIV_Viral_Nonsuppression"/>
+                            <rdf:Description rdf:about="http://purl.org/sudo/ontology/sudo.owl#HIV_Viral_Suppresion"/>
+                            <rdf:Description rdf:about="http://purl.org/sudo/ontology/sudo.owl#death"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_outcome"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#Additional_treatments_offered_no_improvement_to_standard_treatments"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_population"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.org/sudo/ontology/sudo.owl#HIV_Positive"/>
+                            <rdf:Description rdf:about="http://purl.url/sudo/ontology#multisite"/>
+                            <rdf:Description rdf:about="http://purl.url/sudo/ontology#user_of_substance"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#Motivational_Incentives"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#Motivational_Interviewing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#Retention_in_Treatment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#HIV/AIDS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#report_on_activities_from"/>
+                <owl:allValuesFrom rdf:resource="http://purl.org/sudo/ontology/sudo.owl#CTN-049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>This is the Primary Outcomes Article for CTN-0049. Substance use is a major driver of the HIV epidemic and is associated with poor HIV care outcomes. Patient navigation (care coordination with case management) and the use of financial incentives for achieving predetermined outcomes are interventions increasingly promoted to engage patients in substance use disorders treatment and HIV care, but there is little evidence for their efficacy in improving HIV-1 viral suppression rates. This study aimed to assess the effect of a structured patient navigation intervention with or without financial incentives to improve HIV-1 viral suppression rates among patients with elevated HIV-1 viral loads and substance use recruited as hospital inpatients.
+
+From July 2012 - January 2014, 801 patients with HIV infection and substance use from 11 hospitals across the United States were randomly assigned to receive patient navigation alone (n=266), patient navigation plus financial incentives (n=271), or treatment as usual (n=264). HIV-1 plasma viral load was measured at baseline and at 6 and 12 months. Patient navigation included up to 11 sessions of care coordination with case management and motivational interviewing techniques over 6 months. Financial incentives (up to $1160) were provided for achieving targeted behaviors aimed at reducing substance use, increasing engagement in HIV care, and improving HIV outcomes. Treatment as usual was the standard practice at each hospital for linking hospitalized patients to outpatient HIV care and substance use disorders treatment. The primary outcome was HIV viral suppression (less than or equal to 200 copies/mL) relative to viral nonsuppression or death at the 12-month follow-up.
+
+Of 801 patients randomized, 261 (32.6%) were women (mean [SD] age, 44.6 years [10 years]). There were no differences in rates of HIV viral suppression versus nonsuppression or death among the 3 groups at 12 months. Eighty-five of 249 patients (34.1%) in the usual-treatment group experienced treatment success compared with 89 of 249 patients (35.7%) in the navigation-only gruop, for a treatment difference of 1.6%, and compared with 98 of 254 patients (38.6%) in the navigation-plus-incentives group, for a treatment difference of 4.5%. The treatment difference between the navigation-only and navigation-plus-incentives group was -2.8%.</rdfs:comment>
+        <rdfs:label>Study Specification Number 1213</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Study_Specification_Number_1226 -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#Study_Specification_Number_1226">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Clinical_Trial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_allocation"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#random"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_comparison"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/sudo/ontology/sudo.owl#TAPS_Sensitivity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_intervention"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/sudo/ontology/sudo.owl#Tobacco,_Alcohol,_Prescription_Medication,_and_Other_Substance_Use_(TAPS)"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_measurement"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/sudo/ontology/sudo.owl#TAPS_Sensitivity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_outcome"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#Inconclusive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_population"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.url/sudo/ontology#adult"/>
+                            <rdf:Description rdf:about="http://purl.url/sudo/ontology#multisite"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/sudo/ontology/sudo.owl#Opioids"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#Alcohol"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#Cigarettes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>This is the Primary Outcomes Article for CTN-0059. Substance use, a leading cause of illness and death, is underidentified in medical practice. The Tobacco, Alcohol, Prescription Medication, and Other Substance Use (TAPS) tool was developed to address the need for a brief screening and assessment instrument that includes all commonly used substances and fits into clinical workflows. The goal of this multisite study conducted within the NIDA Clinical Trials Network, CTN-0059, was to assess the performance of the TAPS tool in primary care patients by comparing it with a reference standard measure, the modified World Mental Health Composite International Diagnostic Interview (CIDI), which measures problem use and substance use disorder (SUD).
+
+The study was conducted at 5 adult primary care clinics with 2000 adult patients consecutively recruited from clinic waiting areas. Results found that interviewer- and self-administered versions of the TAPS tool had similar diagnostic characteristics. For identifying problem use (at a cutoff of 1+), the TAPS tool had a sensitivity of 0.93 (95%CI, 0.90 to 0.95) and specificity of 0.87 (CI, 0.85 to 0.89) for tobacco and a sensitivity of 0.74 (CI, 0.70 to 0.78) and specificity of 0.79 (CI, 0.76 to 0.81) for alcohol. For problem use of illicit and prescription drugs, sensitivity ranged from 0.82 (CI, 0.76 to 0.87) for marijuana to 0.63 (CI, 0.47 to 0.78) for sedatives; specificity was 0.93 or higher. For identifying any SUD (at a cutoff of 2+), sensitivity was lower.
+
+Limitations of this study included the low prevalence of some drug classes, leading to poor precision in some estimates. Also, research assistants were not blinded to participants&apos; TAPS tool responses when they administered the CIDI.</rdfs:comment>
+        <rdfs:label>Study Specification Number 1226</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#TAPS_Sensitivity -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#TAPS_Sensitivity">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Comparison"/>
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Measurement"/>
+        <rdfs:label>TAPS Sensitivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Unclear_understanding_of_HCV_and_implications -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#Unclear_understanding_of_HCV_and_implications">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Outcome"/>
+        <rdfs:label>Unclear understanding of HCV and implications</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#african -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#african">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Enrollment_Population"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#death -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#death">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Comparison"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#discussion_of_HCV_testing_and_treatment_barriers -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#discussion_of_HCV_testing_and_treatment_barriers">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Intervention"/>
+        <rdfs:label>discussion of HCV testing and treatment barriers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#mixed-gender -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#mixed-gender">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Enrollment_Population"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#patient_navigation_intervention -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#patient_navigation_intervention">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Intervention"/>
+        <rdfs:label>patient navigation intervention</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#receipt_of_informational_pamphlet -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#receipt_of_informational_pamphlet">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Intervention"/>
+        <rdfs:label>receipt of informational pamphlet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#receipt_of_screening_assignment -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#receipt_of_screening_assignment">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Intervention"/>
+        <rdfs:label>receipt of screening assignment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#referral_to_treatment -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#referral_to_treatment">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Intervention"/>
+        <rdfs:label>referral to treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Tobacco,_Alcohol,_Prescription_Medication,_and_Other_Substance_Use_(TAPS) -->
+
+    <owl:Class rdf:about="http://purl.org/sudo/ontology/sudo.owl#Tobacco,_Alcohol,_Prescription_Medication,_and_Other_Substance_Use_(TAPS)">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Intervention"/>
+        <rdfs:label>Tobacco, Alcohol, Prescription Medication, and Other Substance Use (TAPS)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.url/sudo/ontology#ADHD -->
 
     <owl:Class rdf:about="http://purl.url/sudo/ontology#ADHD">
@@ -3091,6 +3459,197 @@ Results determined that changes in transaminase levels did not differ by medicat
     
 
 
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#CTN-035 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#CTN-035">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Clinical_Trial_Network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#CTN-047 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#CTN-047">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Clinical_Trial_Network"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Study_Specification_Number_1005 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Study_Specification_Number_1005">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Clinical_Trial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_intervention"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/sudo/ontology/sudo.owl#discussion_of_HCV_testing_and_treatment_barriers"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_outcome"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/sudo/ontology/sudo.owl#Poor_provider-patient_communication"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_outcome"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/sudo/ontology/sudo.owl#Unclear_understanding_of_HCV_and_implications"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_population"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.url/sudo/ontology#user_of_substance"/>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.org/sudo/ontology/sudo.owl#african"/>
+                                    <rdf:Description rdf:about="http://purl.url/sudo/ontology#hispanic"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#Community_health_services"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#Minorities"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#STD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#report_on_activities_from"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#CTN-035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Study Specification Number 1005</rdfs:label>
+        <rdfs:label>This is the Results Article for CTN-0035-Ot. Illicit drug users have a high prevalence of HCV and represent the majority of newly infected persons in the U.S. Despite the availability of effective HCV treatment, few drug users have been evaluated or treated for HCV. Racial and ethnic minorities have a higher incidence and prevalence of HCV and higher HCV-related mortality. Factors contributing to poor engagement in care are incompletely understood. In this study, National Drug Abuse Treatment Clinical Trials Network protocol CTN-0035-Ot (&quot;Access to HIV and Hepatitis Screening and Care Among Ethnic Minority Drug Users In and Out of Drug Treatment&quot;), fourteen mixed-gender focus groups of either African American or Latino/a drug users (N=95) discussed barriers to HCV testing and treatment. Themes were identified through content analysis of focus group discussions. Many drug users were tested for HCV in settings where they were receiving care. Outside of these settings, most were unaware of voluntary test sites. After testing HCV positive, drug users reported not receiving clear messages regarding the meaning of a positive HCV test, the impact of HCV infection, or appropriate next steps including HCV clinical evaluations. Many drug users perceived treatment as unimportant because they lacked symptoms, health care providers minimized the severity of the diagnosis, or providers did not recommend treatment. Mistrust of the motivations of health care providers was cited as a barrier to pursuing treatment. Social networks or social interactions were a source of HCV-related information and were influential in shaping drug users perceptions of treatment and its utility.</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Study_Specification_Number_1098 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#Study_Specification_Number_1098">
+        <rdfs:subClassOf rdf:resource="http://purl.url/sudo/ontology#Clinical_Trial"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_allocation"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#random"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_comparison"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/sudo/ontology/sudo.owl#Number_of_positive_hair_samples_for_drug_use"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_intervention"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.org/sudo/ontology/sudo.owl#receipt_of_informational_pamphlet"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.org/sudo/ontology/sudo.owl#receipt_of_screening_assignment"/>
+                                    <rdf:Description rdf:about="http://purl.org/sudo/ontology/sudo.owl#referral_to_treatment"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.org/sudo/ontology/sudo.owl#receipt_of_screening_assignment"/>
+                                    <rdf:Description rdf:about="http://purl.org/sudo/ontology/sudo.owl#referral_to_treatment"/>
+                                    <rdf:Description rdf:about="http://purl.url/sudo/ontology#receipt_of_phone_call"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_measurement"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/sudo/ontology/sudo.owl#Number_of_positive_hair_samples_for_drug_use"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#has_population"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.url/sudo/ontology#adult"/>
+                            <rdf:Description rdf:about="http://purl.url/sudo/ontology#multisite"/>
+                            <rdf:Description rdf:about="http://purl.url/sudo/ontology#user_of_substance"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#Behavioral_Therapy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#Community_health_services"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#Motivational_Interviewing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#thematically_related_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#Outcome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#&apos;has_conclusion&apos;"/>
+                <owl:someValuesFrom rdf:resource="http://purl.url/sudo/ontology#Inconclusive"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.url/sudo/ontology#report_on_activities_from"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/mac389/ontologies/2018/0/untitled-ontology-3#CTN-047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>This is the Primary Outcomes Article for CTN-0047. Medical treatment settings such as emergency departments (EDs) present important opportunities to address problematic substance use. Currently, EDs do not typically intervene beyond acute medical stabilization. This study aimed to contrast the effects of a brief intervention with telephone boosters (BI-B) with those of screening, assessment, and referral to treatment (SAR) and minimal screening only (MSO) among drug-using ED patients. Between October 2010 and February 2012, 1285 adult ED patients from 6 US academic hospitals, who scored 3 or greater on the 10-item Drug Abuse Screening Test (indicating moderate to severe problems related to drug use) and who were currently using drugs, were randomized to MSO (n=431), SAR (n=427), or BI-B (n=427). Follow-up assessment were conducted at 3, 6, and 12 months by blinded interviewers. Following screening, MSO participants received only an informational pamphlet; SAR participants received assessment plus referral to addiction treatment if indicated, and BI-B participants received assessment and referral as in SAR, plus a manual-guided counseling session based on motivational interviewing principles and up to 2 &quot;booster&quot; sessions by telephone during the month following the ED visit. Outcomes evaluated at follow-up visits included self-reported days using the patient-defined primary problem drug, days using any drug, days of heavy drinking, and drug use based on analysis of hair samples. The primary outcome was self-reported days of use of the patient-defined primary problem drug during the 30-day period preceding the 3-month follow-up.
+
+Follow-up rates were 89%, 86%, and 81% at 3, 6, and 12 months, respectively. There were no significant differences between groups in self-reported days using the primary drug, days using any drug, or heavy drinking days at 3, 6, or 12 months. At the 3-month follow-up, participants in the SAR group had a higher rate of hair samples positive for their primary drug of abuse (265 of 280, 95%) than did participants in the MSO group (253 or 287, 88%) or the BI-B group (244 of 275, 89%). Hair analysis differences between groups at other time points were not significant.</rdfs:comment>
+        <rdfs:label>Study Specification Number 1098</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -3099,6 +3658,132 @@ Results determined that changes in transaminase levels did not differ by medicat
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Percentage_of_hair_samples_positive_for_drug_use_in_the_BI-B_group_in_Trial_1098 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/sudo/ontology/sudo.owl#Percentage_of_hair_samples_positive_for_drug_use_in_the_BI-B_group_in_Trial_1098">
+        <ontology:has_percent rdf:datatype="http://www.w3.org/2001/XMLSchema#int">89</ontology:has_percent>
+        <rdfs:label>Percentage of hair samples positive for drug use in the BI-B group in Trial 1098</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Percentage_of_hair_samples_positive_for_drug_use_in_the_MSO_group_in_Trial_1098 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/sudo/ontology/sudo.owl#Percentage_of_hair_samples_positive_for_drug_use_in_the_MSO_group_in_Trial_1098">
+        <ontology:has_percent rdf:datatype="http://www.w3.org/2001/XMLSchema#int">88</ontology:has_percent>
+        <rdfs:label>Percentage of hair samples positive for drug use in the MSO group in Trial 1098</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Percentage_of_hair_samples_positive_for_drug_use_in_the_SAR_group_in_Trial_1098 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/sudo/ontology/sudo.owl#Percentage_of_hair_samples_positive_for_drug_use_in_the_SAR_group_in_Trial_1098">
+        <ontology:has_percent rdf:datatype="http://www.w3.org/2001/XMLSchema#int">95</ontology:has_percent>
+        <rdfs:label>Percentage of hair samples positive for drug use in the SAR group in Trial 1098</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Substance_Users_in_Trial_Number_1226 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/sudo/ontology/sudo.owl#Substance_Users_in_Trial_Number_1226">
+        <ontology:has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2000</ontology:has_value>
+        <rdfs:label>Substance Users in Trial Number 1226</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Substance_users_in_Group_BI-B_in_Trial_Number_1098 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/sudo/ontology/sudo.owl#Substance_users_in_Group_BI-B_in_Trial_Number_1098">
+        <ontology:has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#int">427</ontology:has_value>
+        <rdfs:label>Substance users in Group BI-B in Trial Number 1098</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Substance_users_in_Group_MSO_in_Trial_Number_1098 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/sudo/ontology/sudo.owl#Substance_users_in_Group_MSO_in_Trial_Number_1098">
+        <ontology:has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#int">431</ontology:has_value>
+        <rdfs:label>Substance users in Group MSO in Trial Number 1098</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Substance_users_in_Group_Patient_Navigation_in_Trial_Number_1213 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/sudo/ontology/sudo.owl#Substance_users_in_Group_Patient_Navigation_in_Trial_Number_1213">
+        <ontology:has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#int">266</ontology:has_value>
+        <rdfs:label>Substance users in Group Patient Navigation in Trial Number 1213</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Substance_users_in_Group_SAR_in_Trial_Number_1098 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/sudo/ontology/sudo.owl#Substance_users_in_Group_SAR_in_Trial_Number_1098">
+        <ontology:has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#int">427</ontology:has_value>
+        <rdfs:label>Substance users in Group SAR in Trial Number 1098</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Substance_users_in_Group_Standard_Treatment_in_Trial_Number_1213 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/sudo/ontology/sudo.owl#Substance_users_in_Group_Standard_Treatment_in_Trial_Number_1213">
+        <ontology:has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#int">264</ontology:has_value>
+        <rdfs:label>Substance users in Group Standard Treatment in Trial Number 1213</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Trial_Number_1098 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/sudo/ontology/sudo.owl#Trial_Number_1098">
+        <ontology:has_measurement rdf:resource="http://purl.org/sudo/ontology/sudo.owl#Percentage_of_hair_samples_positive_for_drug_use_in_the_BI-B_group_in_Trial_1098"/>
+        <ontology:has_measurement rdf:resource="http://purl.org/sudo/ontology/sudo.owl#Percentage_of_hair_samples_positive_for_drug_use_in_the_MSO_group_in_Trial_1098"/>
+        <ontology:has_measurement rdf:resource="http://purl.org/sudo/ontology/sudo.owl#Percentage_of_hair_samples_positive_for_drug_use_in_the_SAR_group_in_Trial_1098"/>
+        <ontology:has_study_arm rdf:resource="http://purl.org/sudo/ontology/sudo.owl#Substance_users_in_Group_BI-B_in_Trial_Number_1098"/>
+        <ontology:has_study_arm rdf:resource="http://purl.org/sudo/ontology/sudo.owl#Substance_users_in_Group_MSO_in_Trial_Number_1098"/>
+        <ontology:has_study_arm rdf:resource="http://purl.org/sudo/ontology/sudo.owl#Substance_users_in_Group_SAR_in_Trial_Number_1098"/>
+        <rdfs:label>Trial Number 1098</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Trial_Number_1213 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/sudo/ontology/sudo.owl#Trial_Number_1213">
+        <rdf:type rdf:resource="http://purl.org/sudo/ontology/sudo.owl#Study_Specification_Number_1213"/>
+        <ontology:has_study_arm rdf:resource="http://purl.org/sudo/ontology/sudo.owl#Substance_users_in_Group_Patient_Navigation_in_Trial_Number_1213"/>
+        <ontology:has_study_arm rdf:resource="http://purl.org/sudo/ontology/sudo.owl#Substance_users_in_Group_Standard_Treatment_in_Trial_Number_1213"/>
+        <ontology:has_study_arm rdf:resource="http://purl.org/sudo/ontology/sudo.owl#Substance_users_in_Group_Patient_Navigation_+_Financial_Incentives_in_Trial_Number_1213"/>
+        <rdfs:label>Trial Number 1213</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Trial_Number_1226 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/sudo/ontology/sudo.owl#Trial_Number_1226">
+        <rdf:type rdf:resource="http://purl.org/sudo/ontology/sudo.owl#Study_Specification_Number_1226"/>
+        <ontology:has_study_arm rdf:resource="http://purl.org/sudo/ontology/sudo.owl#Substance_Users_in_Trial_Number_1226"/>
+        <rdfs:label>Trial Number 1226</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.org/sudo/ontology/sudo.owl#Substance_users_in_Group_Patient_Navigation_+_Financial_Incentives_in_Trial_Number_1213 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.org/sudo/ontology/sudo.owl#Substance_users_in_Group_Patient_Navigation_+_Financial_Incentives_in_Trial_Number_1213">
+        <ontology:has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#int">271</ontology:has_value>
+        <rdfs:label>Substance users in Group Patient Navigation + Financial Incentives in Trial Number 1213</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
